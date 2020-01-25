@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://anatol-1988.github.io/landing/categories/</loc>
+    <loc>https://konstbel.github.io/landing/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://anatol-1988.github.io/landing/be/categories/"
+                href="https://konstbel.github.io/landing/be/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://anatol-1988.github.io/landing/categories/"
+                href="https://konstbel.github.io/landing/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://anatol-1988.github.io/landing/tags/</loc>
+    <loc>https://konstbel.github.io/landing/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://anatol-1988.github.io/landing/be/tags/"
+                href="https://konstbel.github.io/landing/be/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://anatol-1988.github.io/landing/tags/"
+                href="https://konstbel.github.io/landing/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://anatol-1988.github.io/landing/</loc>
+    <loc>https://konstbel.github.io/landing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://anatol-1988.github.io/landing/be/"
+                href="https://konstbel.github.io/landing/be/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://anatol-1988.github.io/landing/"
+                href="https://konstbel.github.io/landing/"
                 />
   </url>
   
