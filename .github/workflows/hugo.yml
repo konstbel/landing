@@ -1,0 +1,25 @@
+name: Hugo site CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: jojomi/hugo:0.63
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build the site in the hugo container
+      run: hugo -D
+    - name: Deploy Pages
+      run: |
+        ACCESS_TOKEN=${{secrets.ACCESS_TOKEN}}
+        apk add git
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git clone https://${ACCESS_TOKEN:-"x-access-token:$GITHUB_TOKEN"}@github.com/konstbel/landing.git -b gh-pages
+        cp -a public/. landing/
+        cd landing
+        git add .
+        git commit -m "Deploying" --quiet
+        git push origin gh-pages
