@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://anatol-1988.github.io/landing/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://anatol-1988.github.io/landing/be/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://anatol-1988.github.io/landing/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://anatol-1988.github.io/landing/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://anatol-1988.github.io/landing/be/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://anatol-1988.github.io/landing/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://anatol-1988.github.io/landing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://anatol-1988.github.io/landing/be/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://anatol-1988.github.io/landing/"
+                />
+  </url>
+  
+</urlset>
