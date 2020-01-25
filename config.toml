@@ -1,0 +1,10 @@
+baseURL = "https://konstbel.github.io/landing/"
+theme = "ananke"
+defaultContentLanguage = "ru"
+
+[languages]
+  [languages.ru]
+    title = "Конституция"
+  [languages.be]
+    title = "Канстытуцыя"
+    weight = 2
