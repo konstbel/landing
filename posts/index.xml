@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Канстытуцыя</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Канстытуцыя</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>be</language>
+    <lastBuildDate>Sat, 25 Jan 2020 20:16:21 +0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Sat, 25 Jan 2020 20:16:21 +0300</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>Hello, Belarus!</description>
+    </item>
+    
+  </channel>
+</rss>
