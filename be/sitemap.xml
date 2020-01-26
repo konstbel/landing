@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://konstbel.github.io/landing/be/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/"
+                />
+  </url>
+  
+  <url>
     <loc>https://konstbel.github.io/landing/be/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -27,20 +42,6 @@
                 rel="alternate"
                 hreflang="be"
                 href="https://konstbel.github.io/landing/be/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://konstbel.github.io/landing/be/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://konstbel.github.io/landing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="be"
-                href="https://konstbel.github.io/landing/be/"
                 />
   </url>
   
