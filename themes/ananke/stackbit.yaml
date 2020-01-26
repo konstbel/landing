@@ -102,6 +102,9 @@ models:
             name: instagram
             label: Instagram
           - type: string
+            name: telegram
+            label: Telegram
+          - type: string
             name: youtube
             label: Youtube
           - type: string

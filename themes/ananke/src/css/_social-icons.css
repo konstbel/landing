@@ -1,4 +1,4 @@
-.facebook, .twitter, .instagram, .youtube, .github, .gitlab, .linkedin, .medium, .mastodon, .slack, .stackoverflow {
+.facebook, .twitter, .instagram, .youtube, .github, .gitlab, .linkedin, .medium, .mastodon, .slack, .stackoverflow, .telegram {
   fill: #BABABA;
 }
 
@@ -20,6 +20,10 @@
 }
 
 .instagram:hover {
+  fill: #e1306c;
+}
+
+.telegram:hover {
   fill: #e1306c;
 }
 

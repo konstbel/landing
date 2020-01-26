@@ -24,6 +24,12 @@
   {{- partial "new-window-icon.html" . -}}
 </a>
 {{ end }}
+{{ with .Param "telegram" }}
+<a href="{{ . }}" target="_blank" class="link-transition telegram link dib z-999 pt3 pt0-l mr1" title="Telegram link" rel="noopener" aria-label="follow on Telegram——Opens in a new window">
+  {{ partial "svg/telegram.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
 {{ with .Param "youtube" }}
 <a href="{{ . }}" target="_blank" class="link-transition youtube link dib z-999 pt3 pt0-l mr1" title="Youtube link" rel="noopener" aria-label="follow on Youtube——Opens in a new window">
   {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
