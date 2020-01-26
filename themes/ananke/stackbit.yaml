@@ -105,6 +105,9 @@ models:
             name: telegram
             label: Telegram
           - type: string
+            name: vk
+            label: VK
+          - type: string
             name: youtube
             label: Youtube
           - type: string

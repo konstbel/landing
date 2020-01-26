@@ -30,6 +30,12 @@
   {{- partial "new-window-icon.html" . -}}
 </a>
 {{ end }}
+{{ with .Param "vk" }}
+<a href="{{ . }}" target="_blank" class="link-transition vk link dib z-999 pt3 pt0-l mr1" title="VK link" rel="noopener" aria-label="follow on VK——Opens in a new window">
+  {{ partial "svg/vk.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
 {{ with .Param "youtube" }}
 <a href="{{ . }}" target="_blank" class="link-transition youtube link dib z-999 pt3 pt0-l mr1" title="Youtube link" rel="noopener" aria-label="follow on Youtube——Opens in a new window">
   {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
