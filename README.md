@@ -6,6 +6,12 @@
 $ hugo server
 ```
 
+Каб перасабраць вебпак ресурсы:
+
+```sh
+$ cd themes/ananke/src/; npm run build:production
+```
+
 ## Мэта і бачанне
 
 ## Агульны план
