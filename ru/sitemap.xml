@@ -18,6 +18,21 @@
   </url>
   
   <url>
+    <loc>https://konstbel.github.io/landing/about/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/about/"
+                />
+  </url>
+  
+  <url>
     <loc>https://konstbel.github.io/landing/categories/</loc>
     <xhtml:link
                 rel="alternate"
