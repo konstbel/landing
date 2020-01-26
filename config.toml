@@ -10,6 +10,10 @@ defaultContentLanguage = "ru"
       identifier = "donate"
       url = "https://www.talaka.org/projects/3341/overview"
       name = "Помочь"
+    [[languages.ru.menu.main]]
+      identifier = "about"
+      url = "/about/"
+      name = "О нас"
 
   [languages.be]
     title = "Канстытуцыя"
@@ -19,6 +23,10 @@ defaultContentLanguage = "ru"
       identifier = "donate"
       url = "https://www.talaka.org/projects/3341/overview"
       name = "Дапамагчы"
+    [[languages.be.menu.main]]
+      identifier = "about"
+      url = "/about/"
+      name = "Пра нас"
 
 [params]
   featured_image = "https://scontent.fvno1-1.fna.fbcdn.net/v/t1.0-9/70400549_494952407984177_7647418295364091904_o.jpg?_nc_cat=107&_nc_oc=AQmFGyeOTno9WCVyRRyzitg4npHEpLBjs7j3idk70vZ2lpPFfaWpdRa3_55CBNmgBaE&_nc_ht=scontent.fvno1-1.fna&oh=7a29f28de6e03d3cd6c1cec17e13e696&oe=5ECC0680"
