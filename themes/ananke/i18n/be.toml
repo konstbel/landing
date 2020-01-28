@@ -1,0 +1,32 @@
+[more]
+other = "Яшчэ"
+
+[allTitle]
+other = "Усе {{.Title }}"
+
+[recentTitle]
+other = "Нядаўнія {{.Title }}"
+
+[readMore]
+other = "чытаць далей"
+
+[whatsInThis]
+other = "Змест {{ .Type }}"
+
+[related]
+other = "Падобныя"
+
+[yourName]
+other = "Ваша імя"
+
+[emailAddress]
+other = "Адрас электроннай пошты"
+
+[message]
+other = "Паведамленне"
+
+[emailRequiredNote]
+other = "Патрэбны адрас электроннай пошты"
+
+[send]
+other = "трансмиссия"
