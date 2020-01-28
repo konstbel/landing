@@ -4,6 +4,7 @@
   
   <url>
     <loc>https://konstbel.github.io/landing/be/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -14,6 +15,36 @@
                 rel="alternate"
                 hreflang="be"
                 href="https://konstbel.github.io/landing/be/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://konstbel.github.io/landing/be/posts/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/"
                 />
   </url>
   

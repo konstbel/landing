@@ -4,10 +4,14 @@
 	<sitemap>
 	   	<loc>https://konstbel.github.io/landing/be/sitemap.xml</loc>
 		
+	   	<lastmod>2020-01-27T00:00:00+00:00</lastmod>
+		
 	</sitemap>
 	
 	<sitemap>
 	   	<loc>https://konstbel.github.io/landing/ru/sitemap.xml</loc>
+		
+	   	<lastmod>2020-01-27T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
