@@ -10,23 +10,26 @@ defaultContentLanguage = "ru"
       identifier = "donate"
       url = "https://www.talaka.org/projects/3341/overview"
       name = "Помочь"
+      weight = 0
     [[languages.ru.menu.main]]
       identifier = "about"
       url = "/about/"
       name = "О нас"
+      weight = 100
 
   [languages.be]
     title = "Канстытуцыя"
     description = "Набліжаем новую Беларусь"
-    weight = 2
     [[languages.be.menu.main]]
       identifier = "donate"
       url = "https://www.talaka.org/projects/3341/overview"
       name = "Дапамагчы"
+      weight = 0
     [[languages.be.menu.main]]
       identifier = "about"
       url = "/about/"
       name = "Пра нас"
+      weight = 100
 
 [params]
   featured_image = "https://scontent.fvno1-1.fna.fbcdn.net/v/t1.0-9/70400549_494952407984177_7647418295364091904_o.jpg?_nc_cat=107&_nc_oc=AQmFGyeOTno9WCVyRRyzitg4npHEpLBjs7j3idk70vZ2lpPFfaWpdRa3_55CBNmgBaE&_nc_ht=scontent.fvno1-1.fna&oh=7a29f28de6e03d3cd6c1cec17e13e696&oe=5ECC0680"
@@ -36,3 +39,4 @@ defaultContentLanguage = "ru"
   telegram = "https://t.me/s/svezhyvecer"
   vk = "https://vk.com/svezhyvecer"
   youtube = "https://www.youtube.com/channel/UCPrAHimL4WejRN7udYFN_Sg"
+  mainSections = ["posts"]

@@ -1,11 +1,11 @@
 [more]
 other = "Ещё"
 
-[allTitle]
-other = "Все {{.Title }}"
+[allPosts]
+other = "Все записи"
 
-[recentTitle]
-other = "Недавние {{.Title }}"
+[recentPosts]
+other = "Последние записи"
 
 [readMore]
 other = "читать дальше"

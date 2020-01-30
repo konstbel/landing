@@ -1,11 +1,11 @@
 [more]
 other = "Яшчэ"
 
-[allTitle]
-other = "Усе {{.Title }}"
+[allPosts]
+other = "Усе запісы"
 
-[recentTitle]
-other = "Нядаўнія {{.Title }}"
+[recentPosts]
+other = "Апошнія запісы"
 
 [readMore]
 other = "чытаць далей"
