@@ -32,7 +32,7 @@
 
 ## Як далучыцца у ядро айці каманды:
 
-Запоўніце анкету: https://docs.google.com/forms/d/1Lk2ICzvpkfkLs5X4NjGyp-1dybqPNTKW3WcT9emizw0/edit
+Запоўніце [анкету](https://docs.google.com/forms/d/1Lk2ICzvpkfkLs5X4NjGyp-1dybqPNTKW3WcT9emizw0/edit)
 
 1. Мы звяжамся з вамі праз чат высветлім, што вы умееце і чаму для вас каманда важна.
 2. Вызначымся з колам задач і запросім у іншыя каманікацыйныя каналы.
