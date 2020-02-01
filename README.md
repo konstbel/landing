@@ -7,7 +7,9 @@
 
 Наш план выглядае так....
 
-## Падыходы
+## Падыходы і прынцыпы (чарнавік)
+
+
 
 
 
@@ -15,11 +17,17 @@
 
 ## Як далучыцца да працы над задачамі
 
-1.
-2. 
-3....
+1. Напачатку праглядзіце [дарожную мапу](https://github.com/konstbel/landing/issues/13)
+2. Пасля праглядзіце [спіс задач](https://github.com/konstbel/landing/issues) і прыцаніцеся, дзе б вы жадалі пачаць свой удзел
+3. Перад самым далучэннем можна праглядзець [найбольш актуальны праект](https://github.com/konstbel/landing/projects) і пачаць каментаваць у карцы.
 
-## Як працаваць
+Калі вы жадаеце плотнага ўдзелу камандзе (сустрэчы ў рэале, сазвонкі) і прыняцця рашэнняў датычна архітэктуры чытайце секцыю ніжэй
+
+## Як далучыцца у ядро айці каманды:
+Запоўніце анкету: https://docs.google.com/forms/d/1Lk2ICzvpkfkLs5X4NjGyp-1dybqPNTKW3WcT9emizw0/edit
+
+
+## Як запусціць праект
 
 Бягучы стан можно паглядзець на https://konstbel.github.io/landing/
 
@@ -35,6 +43,3 @@ $ hugo server
 $ cd themes/ananke/src/; npm run build:production
 ```
 
-
-## Як далучыцца у ядро айці каманды:
-Запоўніце анкету: https://docs.google.com/forms/d/1Lk2ICzvpkfkLs5X4NjGyp-1dybqPNTKW3WcT9emizw0/edit
