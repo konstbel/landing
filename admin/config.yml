@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo:  rielas/landing
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: 'blog_ru'
+    label: 'Посты на русском'
+    folder: 'content/ru/posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Название', name: 'title', widget: 'string' }
+      - { label: 'Дата', name: 'date', widget: 'datetime' }
+      - { label: 'Автор', name: 'author', widget: 'string', required: false }
+      - { label: 'Описание', name: 'description', widget: 'string', required: false }
+      - { label: 'Главное изображение', name: 'featured_image', widget: 'image'}
+      - { label: 'Текст', name: 'body', widget: 'markdown' }
+  - name: 'blog_be'
+    label: 'Запісы на беларускай'
+    folder: 'content/be/posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Назва', name: 'title', widget: 'string' }
+      - { label: 'Дата', name: 'date', widget: 'datetime' }
+      - { label: 'Аўтар', name: 'author', widget: 'string', required: false }
+      - { label: 'Апісанне', name: 'description', widget: 'string', required: false }
+      - { label: 'Галоўная выява', name: 'featured_image', widget: 'image'}
+      - { label: 'Тэкст', name: 'body', widget: 'markdown' }
