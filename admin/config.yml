@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo:  rielas/landing
+  repo:  konstbel/landing
 media_folder: static/img
 public_folder: /img
 collections:
