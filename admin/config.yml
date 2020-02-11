@@ -23,11 +23,15 @@ collections:
     file: 'content/ru/_index.md'
     editor:
       preview: true
+    fields:
+      - { label: 'Название', name: 'title', widget: 'string' }
   - name: 'about_ru'
     label: 'О нас (ru)'
     file: 'content/ru/about/_index.md'
     editor:
       preview: true
+    fields:
+      - { label: 'Название', name: 'title', widget: 'string' }
   - name: 'blog_be'
     label: 'Запісы (be)'
     folder: 'content/be/posts'
@@ -47,8 +51,12 @@ collections:
     file: 'content/be/_index.md'
     editor:
       preview: true
+    fields:
+      - { label: 'Название', name: 'title', widget: 'string' }
   - name: 'about_be'
     label: 'Пра нас (be)'
     file: 'content/be/about/_index.md'
     editor:
       preview: true
+    fields:
+      - { label: 'Название', name: 'title', widget: 'string' }
