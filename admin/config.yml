@@ -46,19 +46,36 @@ collections:
         }
       - { label: "Галоўная выява", name: "featured_image", widget: "image" }
       - { label: "Тэкст", name: "body", widget: "markdown" }
-  - name: страницы
+  - name: pages_ru
     label: Страницы (ru)
     files:
-      - name: main_ru
+      - name: main
         label: Главная
         file: content/ru/_index.md
         editor:
           preview: true
         fields:
-          - { label: "Тэкст", name: "body", widget: "markdown" }
-      - name: about_ru
+          - { label: "Текст", name: "body", widget: "markdown" }
+      - name: about
         label: О нас
         file: content/ru/about/_index.md
+        editor:
+          preview: true
+        fields:
+          - { label: "Текст", name: "body", widget: "markdown" }
+  - name: pages_by
+    label: Старонкі (be)
+    files:
+      - name: main
+        label: Галоўная
+        file: content/be/_index.md
+        editor:
+          preview: true
+        fields:
+          - { label: "Тэкст", name: "body", widget: "markdown" }
+      - name: about
+        label: Пра нас
+        file: content/be/about/_index.md
         editor:
           preview: true
         fields:
