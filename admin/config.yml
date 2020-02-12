@@ -28,7 +28,7 @@ collections:
         }
       - { label: "Текст", name: "body", widget: "markdown" }
   - name: "blog_be"
-    label: "Запісы на беларускай"
+    label: "Запісы (be)"
     folder: "content/be/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -47,11 +47,23 @@ collections:
       - { label: "Галоўная выява", name: "featured_image", widget: "image" }
       - { label: "Тэкст", name: "body", widget: "markdown" }
   - name: страницы
-    label: Страницы
+    label: Страницы (ru)
     files:
-      - label: Главная
+      - name: main_ru
+        label: Главная
         file: content/ru/_index.md
-        name: main_ru
+        editor:
+          preview: true
+        fields:
+          - {
+              label: "Название",
+              name: "title",
+              widget: "string",
+              required: false,
+            }
+      - name: about_ru
+        label: 'О нас'
+        file: 'content/ru/about/_index.md'
         editor:
           preview: true
         fields:
