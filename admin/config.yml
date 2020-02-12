@@ -4,11 +4,11 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: "blog_ru"
-    label: "Посты (ru)"
-    folder: "content/ru/posts"
+  - name: blog_ru
+    label: Посты (ru)
+    folder: content/ru/posts
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: {{year}}-{{month}}-{{day}}-{{slug}}
     editor:
       preview: true
     fields:
@@ -27,11 +27,11 @@ collections:
           widget: "image",
         }
       - { label: "Текст", name: "body", widget: "markdown" }
-  - name: "blog_be"
-    label: "Запісы (be)"
-    folder: "content/be/posts"
+  - name: blog_be
+    label: Запісы (be)
+    folder: content/be/posts
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: {{year}}-{{month}}-{{day}}-{{slug}}
     editor:
       preview: true
     fields:
@@ -62,8 +62,8 @@ collections:
               required: false,
             }
       - name: about_ru
-        label: 'О нас'
-        file: 'content/ru/about/_index.md'
+        label: О нас
+        file: content/ru/about/_index.md
         editor:
           preview: true
         fields:
