@@ -18,11 +18,6 @@ collections:
       - { label: 'Описание', name: 'description', widget: 'string', required: false }
       - { label: 'Главное изображение', name: 'featured_image', widget: 'image'}
       - { label: 'Текст', name: 'body', widget: 'markdown' }
-  - name: 'main_ru'
-    label: 'Главная (ru)'
-    file: 'content/ru/_index.md'
-    editor:
-      preview: true
   - name: 'blog_be'
     label: 'Запісы на беларускай'
     folder: 'content/be/posts'
@@ -37,3 +32,11 @@ collections:
       - { label: 'Апісанне', name: 'description', widget: 'string', required: false }
       - { label: 'Галоўная выява', name: 'featured_image', widget: 'image'}
       - { label: 'Тэкст', name: 'body', widget: 'markdown' }
+  - name: страницы
+    label: Страницы
+    files:
+      - label: Главная
+        file: content/ru/_index.md
+        name: main_ru
+        editor:
+          preview: true
