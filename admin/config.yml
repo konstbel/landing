@@ -40,3 +40,5 @@ collections:
         name: main_ru
         editor:
           preview: true
+        fields:
+
