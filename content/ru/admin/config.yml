@@ -1,34 +1,82 @@
 backend:
   name: github
-  repo:  konstbel/landing
+  repo: konstbel/landing
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'blog_ru'
-    label: 'Посты на русском'
-    folder: 'content/ru/posts'
+  - name: blog_ru
+    label: Посты (ru)
+    folder: content/ru/posts
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: 'Название', name: 'title', widget: 'string' }
-      - { label: 'Дата', name: 'date', widget: 'datetime' }
-      - { label: 'Автор', name: 'author', widget: 'string', required: false }
-      - { label: 'Описание', name: 'description', widget: 'string', required: false }
-      - { label: 'Главное изображение', name: 'featured_image', widget: 'image'}
-      - { label: 'Текст', name: 'body', widget: 'markdown' }
-  - name: 'blog_be'
-    label: 'Запісы на беларускай'
-    folder: 'content/be/posts'
+      - { label: "Название", name: "title", widget: "string" }
+      - { label: "Дата", name: "date", widget: "datetime" }
+      - { label: "Автор", name: "author", widget: "string", required: false }
+      - {
+          label: "Описание",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Главное изображение",
+          name: "featured_image",
+          widget: "image",
+        }
+      - { label: "Текст", name: "body", widget: "markdown" }
+  - name: blog_be
+    label: Запісы (be)
+    folder: content/be/posts
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: 'Назва', name: 'title', widget: 'string' }
-      - { label: 'Дата', name: 'date', widget: 'datetime' }
-      - { label: 'Аўтар', name: 'author', widget: 'string', required: false }
-      - { label: 'Апісанне', name: 'description', widget: 'string', required: false }
-      - { label: 'Галоўная выява', name: 'featured_image', widget: 'image'}
-      - { label: 'Тэкст', name: 'body', widget: 'markdown' }
+      - { label: "Назва", name: "title", widget: "string" }
+      - { label: "Дата", name: "date", widget: "datetime" }
+      - { label: "Аўтар", name: "author", widget: "string", required: false }
+      - {
+          label: "Апісанне",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Галоўная выява", name: "featured_image", widget: "image" }
+      - { label: "Тэкст", name: "body", widget: "markdown" }
+  - name: pages_ru
+    label: Страницы (ru)
+    files:
+      - name: main
+        label: Главная
+        file: content/ru/_index.md
+        editor:
+          preview: true
+        fields:
+          - { label: "Текст", name: "body", widget: "markdown" }
+      - name: about
+        label: О нас
+        file: content/ru/about/_index.md
+        editor:
+          preview: true
+        fields:
+          - { label: "Текст", name: "body", widget: "markdown" }
+  - name: pages_by
+    label: Старонкі (be)
+    files:
+      - name: main
+        label: Галоўная
+        file: content/be/_index.md
+        editor:
+          preview: true
+        fields:
+          - { label: "Тэкст", name: "body", widget: "markdown" }
+      - name: about
+        label: Пра нас
+        file: content/be/about/_index.md
+        editor:
+          preview: true
+        fields:
+          - { label: "Тэкст", name: "body", widget: "markdown" }
