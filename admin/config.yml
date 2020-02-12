@@ -55,21 +55,11 @@ collections:
         editor:
           preview: true
         fields:
-          - {
-              label: "Название",
-              name: "title",
-              widget: "string",
-              required: false,
-            }
+          - { label: "Тэкст", name: "body", widget: "markdown" }
       - name: about_ru
         label: О нас
         file: content/ru/about/_index.md
         editor:
           preview: true
         fields:
-          - {
-              label: "Название",
-              name: "title",
-              widget: "string",
-              required: false,
-            }
+          - { label: "Тэкст", name: "body", widget: "markdown" }
