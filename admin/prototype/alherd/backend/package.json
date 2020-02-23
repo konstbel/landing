@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "nodemon server.js --watch server.js"
+    },
+    "dependencies": {
+        "json-server": "^0.16.0",
+        "argon2": "^0.26.0",
+        "jsonwebtoken" : "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
