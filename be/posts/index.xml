@@ -2,20 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Канстытуцыя</title>
-    <link>https://konstbel.github.io/landing/be/posts/</link>
+    <link>https://konstbel.netlify.com/be/posts/</link>
     <description>Recent content in Posts on Канстытуцыя</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 16:23:02 +0000</lastBuildDate>
     
-	<atom:link href="https://konstbel.github.io/landing/be/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://konstbel.netlify.com/be/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Выбар 2020</title>
+      <link>https://konstbel.netlify.com/be/posts/2020-02-01-%D0%B2%D1%8B%D0%B1%D0%B0%D1%80-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 16:23:02 +0000</pubDate>
+      
+      <guid>https://konstbel.netlify.com/be/posts/2020-02-01-%D0%B2%D1%8B%D0%B1%D0%B0%D1%80-2020/</guid>
+      <description>У 2020 годзе ў Беларусі два галоўных палітычных падзеі: прэзідэнцкія «выбары» і змяненне Канстытуцыі.
+Гэта цесна звязаныя паміж сабой падзеі, я пра гэта ўжо пісаў некалькі разоў. Але для аналізу іх можна падзяліць і разгледзець паасобку. Спынімся пакуль толькі на «выбарах».
+Амаль усе грамадзяне краіны ведаюць, што выбараў у краіне няма, а «выбары» - гэта махлярства з гарантаваным вынікам. Ярмошынай рэгулярна атрымоўваецца ўсіх падмануць. Чаму?
+  Таму, што выбаршчыкі прыходзяць на ўчасткі для галасавання, нешта кідаюць у скрыні для галасавання, але ніхто не ўлічвае меркаванне гэтых выбаршчыкаў.</description>
+    </item>
+    
+    <item>
       <title>Чаму мы супраць удзелу ў «выбарах»?</title>
-      <link>https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/</link>
+      <link>https://konstbel.netlify.com/be/posts/pochemu-my-protiv-uchastiya-vyborah/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/</guid>
+      <guid>https://konstbel.netlify.com/be/posts/pochemu-my-protiv-uchastiya-vyborah/</guid>
       <description>У 2020 годзе ў краіне пройдуць так званыя «выбары» прэзідэнта. Большасці людзей у Беларусі даўно зразумела, што нашы «выбары» - гэта чыстая маніпуляцыя, неабходная толькі для таго, каб стварыць бачнасць законнасці існуючай улады. Тым не менш, на кожныя «выбары» вылучаецца мноства незалежных кандыдатаў, якія ўдзельнічаюць у гэтым спектаклі.
 Гэта шкодная і бессэнсоўная актыўнасць, якая, пачынаючы з выбараў 2010 года, не прыносіць Беларусі нічога добрага.
 Разбярэмся чаму   «Выбары» у Беларусі пабудаваны на маштабных фальсіфікацыях: маніпулятыўная працэсе фарміравання выбарчых камісій, прымусе да галасавання, непразрыстым падліку галасоў, ўкід выбарчых бюлетэняў, падробках пратаколаў выбарчых камісій і г.</description>
