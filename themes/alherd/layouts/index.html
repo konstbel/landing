@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+<section class="banner bg-cover"
+         style="background-image: url('{{ .Site.Params.banner.bgImage | relURL }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-3 mb-lg-0">
+                <h4>{{ i18n "home_title" }}</h4>
+                <p>{{ i18n "home_body" | markdownify}}</p>
+                <a class="btn btn-lg btn-dark btn-link" href="about">
+                    {{ i18n "learn_more" }}
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <img src="{{ .Site.Params.banner.image | relURL }}"
+                     class="img-fluid illustration" alt="" width="700.381" height="200.939">
+            </div>
+            <div class="col-lg-6 illustration-mobile">
+                <img src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-0">
+    <div class="container">
+        <div class="row shadow bg-white p-5" >
+            <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
+                <img src='{{ "img/filler.png" | relURL }}' class="mr-4" alt="..." height="300" width="300">
+            </div>
+            <div class="col-md-8 text-center text-md-left">
+                <h4 class="mt-0">{{ i18n "how_to_join_title" }}</h4>
+                <p>{{ i18n "how_to_join" | markdownify}}</p>
+                <blockquote class="blockquote">“Любіш Беларусь? - Дык узаемна!”</blockquote>
+                <a href="join"
+                   style="width:170px;margin-top: 5px"
+                   class="btn btn-link btn-primary">
+                    {{ i18n "join"}}
+                </a>
+                <a href="about"
+                   style="width:170px;margin-top: 5px"
+                   class="btn btn-link btn-info">
+                    {{ i18n "about"}}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+{{ $section_count := len $section }}
+{{ if ge $section_count 1 }}
+{{ $section_name := index (.Site.Params.mainSections) 0 }}
+<section class="section pt-0">
+    <div class="container">
+        {{ with .Site.GetPage "section" $section_name }}
+        <h3 class="flex-none">
+            {{ i18n "recentPosts" }}
+        </h3>
+        {{ end }}
+        {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+        <div class="row">
+            {{ range (first $n_posts $section) }}
+            <div class="col-sm-4">
+                <div>
+                    {{ partial "summary-with-image.html" . }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                {{ with .Site.GetPage "section" $section_name }}
+                <a href="{{ .Permalink }}" class="btn btn-lg btn-link">{{ i18n "allPosts" . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ end }}
