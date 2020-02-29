@@ -24,11 +24,11 @@ const isAuthorized = (req) => {
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 server.use((req, res, next) => {
-    if(req.url === '/login'){
+    if (req.url === '/login') {
         next();
         return;
     }
-    if (!isAuthorized(req) ) {
+    if (!isAuthorized(req)) {
         res.sendStatus(401);
         return;
     }
@@ -77,8 +77,41 @@ server.post(
         }
     }
 );
-
-server.use(router);
-server.listen(4000, () => {
-    console.log('JSON Server is running')
+server.use((req, res, next) => {
+    if (req.method === 'POST') {
+        req.body.createdAt = Date.now()
+    }
+    next()
 });
+server.use(
+    async (req, res, next) => {
+        // if(req.originalUrl === '/post'){
+        //     console.log(req.originalUrl);
+        //     try {
+        //         const sgMail = require('@sendgrid/mail');
+        //         sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+        //         const msg = {
+        //             to: 'to_email',
+        //             from: 'from_email',
+        //             subject: 'Sending with Twilio SendGrid is Fun',
+        //             text: 'and easy to do anywhere, even with Node.js',
+        //             html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+        //         };
+        //
+        //         let [response] = await sgMail.send(msg);
+        //     } catch (e) {
+        //         console.log(e)
+        //     }
+        // }
+        next()
+    }
+);
+server.use(router);
+
+
+server.listen(
+    4000,
+    () => {
+        console.log('JSON Server is running')
+    }
+);
