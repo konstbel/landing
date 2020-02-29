@@ -6,30 +6,29 @@ import {
     TextInput,
     Create,
     SimpleForm,
-    Edit
+    RichTextField,
+    DateField,
+    required
 } from 'react-admin';
 
+import RichTextInput from 'ra-input-rich-text';
+
 export const PostsList = props => (
-    <List {...props}>
+    <List {...props} sort={{ field: 'createdAt', order: 'DESC' }}>
         <Datagrid rowClick="edit">
             <TextField source="title" />
-            <TextField source="body" />
+            <RichTextField source="body" />
+            <DateField source="createdAt" locales="ru-RU" showTime/>
         </Datagrid>
     </List>
 );
 export const CreatePost = (props) => (
     <Create {...props}>
         <SimpleForm>
-            <TextInput source="title"/>
-            <TextInput  source="body" multiline/>
+            <TextInput source="title" validation={{ required: true }}/>
+            <RichTextInput validate={[required()]}
+                           source="body"
+                           toolbar={[ ['bold', 'italic', 'underline'], ['link', 'image', 'code-block'] ]}/>
         </SimpleForm>
     </Create>
-);
-export const EditPost = (props) => (
-    <Edit {...props}>
-        <SimpleForm>
-            <TextInput source="title" />
-            <TextInput  source="body" multiline />
-        </SimpleForm>
-    </Edit>
 );
