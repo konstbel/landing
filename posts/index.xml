@@ -5,10 +5,19 @@
     <link>https://konstbel.github.io/landing/posts/</link>
     <description>Recent content in Блог on Конституция</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Feb 2020 16:17:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 16:18:51 +0000</lastBuildDate>
     
 	<atom:link href="https://konstbel.github.io/landing/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Манифест 2020</title>
+      <link>https://konstbel.github.io/landing/posts/manifest/</link>
+      <pubDate>Sat, 01 Feb 2020 16:18:51 +0000</pubDate>
+      
+      <guid>https://konstbel.github.io/landing/posts/manifest/</guid>
+      <description>Вправе ли гражданин, не занимающий никаких постов и должностей, обращаться ко всему гражданскому обществу, ко всей нации? Дело даже не в праве, как таковом, оно абстрактно существует у каждого. Дело в том, что к нации имеет смысл обращаться тогда, когда есть, что сказать «городу и миру».</description>
+    </item>
     
     <item>
       <title>Выбор 2020</title>
@@ -27,6 +36,15 @@
       
       <guid>https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/</guid>
       <description>В 2020 году в стране пройдут так называемые «выборы» президента. Большинству людей в Беларуси давно понятно, что наши «выборы» – это чистая манипуляция, необходимая лишь для того, чтобы создать видимость законности существующей власти. Тем не менее, на каждые «выборы» выдвигается множество независимых кандидатов, которые участвуют в этом спектакле.</description>
+    </item>
+    
+    <item>
+      <title>Новогоднее обращение Владимира Мацкевича к беларусам</title>
+      <link>https://konstbel.github.io/landing/posts/zvarot/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://konstbel.github.io/landing/posts/zvarot/</guid>
+      <description>   </description>
     </item>
     
   </channel>

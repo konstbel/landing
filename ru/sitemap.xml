@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://konstbel.github.io/landing/posts/</loc>
-    <lastmod>2020-02-01T16:17:51+00:00</lastmod>
+    <lastmod>2020-02-01T16:18:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
@@ -14,6 +14,36 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://konstbel.github.io/landing/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://konstbel.github.io/landing/</loc>
+    <lastmod>2020-02-01T16:18:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://konstbel.github.io/landing/posts/manifest/</loc>
+    <lastmod>2020-02-01T16:18:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/posts/manifest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/posts/manifest/"
                 />
   </url>
   
@@ -33,21 +63,6 @@
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/</loc>
-    <lastmod>2020-02-01T16:17:51+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="be"
-                href="https://konstbel.github.io/landing/be/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://konstbel.github.io/landing/"
-                />
-  </url>
-  
-  <url>
     <loc>https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -59,6 +74,21 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://konstbel.github.io/landing/posts/zvarot/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/posts/zvarot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/posts/zvarot/"
                 />
   </url>
   
