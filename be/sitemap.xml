@@ -3,90 +3,96 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://konstbel.github.io/landing/be/posts/</loc>
+    <loc>https://svezhyvecer.by/be/</loc>
     <lastmod>2020-02-01T16:23:02+00:00</lastmod>
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/posts/"
+                href="https://svezhyvecer.by/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/posts/"
+                href="https://svezhyvecer.by/be/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/be/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/</loc>
+    <loc>https://svezhyvecer.by/be/posts/</loc>
     <lastmod>2020-02-01T16:23:02+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/"
+                href="https://svezhyvecer.by/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/"
+                href="https://svezhyvecer.by/be/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/be/</loc>
+    <loc>https://svezhyvecer.by/be/posts/2020-02-01-%D0%B2%D1%8B%D0%B1%D0%B0%D1%80-2020/</loc>
     <lastmod>2020-02-01T16:23:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://konstbel.github.io/landing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="be"
-                href="https://konstbel.github.io/landing/be/"
-                />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
+    <loc>https://svezhyvecer.by/be/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                href="https://svezhyvecer.by/posts/pochemu-my-protiv-uchastiya-vyborah/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                href="https://svezhyvecer.by/be/posts/pochemu-my-protiv-uchastiya-vyborah/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/be/about/</loc>
+    <loc>https://svezhyvecer.by/be/about/</loc>
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/about/"
+                href="https://svezhyvecer.by/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/about/"
+                href="https://svezhyvecer.by/be/about/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/be/join/</loc>
+    <loc>https://svezhyvecer.by/be/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/join/"
+                href="https://svezhyvecer.by/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/join/"
+                href="https://svezhyvecer.by/be/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svezhyvecer.by/be/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://svezhyvecer.by/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://svezhyvecer.by/be/tags/"
                 />
   </url>
   
