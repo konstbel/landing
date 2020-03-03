@@ -12,12 +12,12 @@ title: "Пра нас"
 
 <div class="row">
     <div class="col-lg-6">
-        <img src="/img/articles/lancug_1.png">
+        {{<img "img/articles/lancug_1.png">}}
         <br>
         <span class="text-muted">Жывы ланцуг ад “Свежага ветру” у Мінску. 7 снежня 2019.</span>
     </div>
     <div class="col-lg-4">
-        <img src="/img/articles/lancug_2.png">
+        {{<img "img/articles/lancug_2.png">}}
     </div>
 </div>
 
@@ -33,12 +33,12 @@ title: "Пра нас"
 
 <div class="row">
     <div class="col-lg-6">
-        <img src="/img/articles/press_1.png">
+        {{<img "img/articles/press_1.png">}}
         <br>
         <span class="text-muted"> Прэс-канферэнцыя Свежага Ветру ў Прэс-клубе</span>
     </div>
     <div class="col-lg-4">
-        <img src="/img/articles/press_2.png">
+        {{<img "img/articles/press_2.png">}}
     </div>
 </div>
 

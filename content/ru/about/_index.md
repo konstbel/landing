@@ -12,12 +12,12 @@ title: "О нас"
 
 <div class="row">
     <div class="col-lg-6">
-        <img src="/img/articles/lancug_1.png">
+        {{<img "img/articles/lancug_1.png">}}
         <br>
         <span class="text-muted">Живая цепь от “Свежего ветра” в Минске. 7 декабря 2019.</span>
     </div>
     <div class="col-lg-3">
-        <img src="/img/articles/lancug_2.png">
+        {{<img "img/articles/lancug_2.png">}}
     </div>
 </div>
 
@@ -29,12 +29,12 @@ title: "О нас"
 
 <div class="row pt">
     <div class="col-lg-6">
-        <img src="/img/articles/press_1.png">
+        {{<img "img/articles/press_1.png">}}
         <br>
         <span class="text-muted"> Пресс-конференция Свежего Ветра в Пресс-клубе</span>
     </div>
     <div class="col-lg-3">
-        <img src="/img/articles/press_2.png">
+        {{<img "img/articles/press_2.png">}}
     </div>
 </div>
 
