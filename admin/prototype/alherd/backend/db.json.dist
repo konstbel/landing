@@ -1,0 +1,17 @@
+{
+  "post": [
+    {
+      "body": "body",
+      "title": "title",
+      "createdAt": 0
+      "id": 1
+    },
+  ]
+  "message": [
+      {
+        "body": "body",
+        "createdAt": 0
+        "id": 1
+      },
+    ]
+}

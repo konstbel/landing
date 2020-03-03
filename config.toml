@@ -1,44 +1,67 @@
 baseURL = "https://svezhyvecer.by/"
-theme = "ananke"
+theme = "alherd"
 defaultContentLanguage = "ru"
+disableKinds = ['taxonomy', 'taxonomyTerm']
+summaryLength = 40
 
-[languages]
-  [languages.ru]
-    title = "Конституция"
-    description = "Приближаем новую Беларусь"
-    contentDir = "content/ru"
-    [[languages.ru.menu.main]]
-      identifier = "donate"
-      url = "https://www.talaka.org/projects/3341/overview"
-      name = "Помочь"
-      weight = 0
-    [[languages.ru.menu.main]]
-      identifier = "about"
-      url = "/about/"
-      name = "О нас"
-      weight = 100
+[markup.goldmark.renderer]
+unsafe= true
 
-  [languages.be]
-    title = "Канстытуцыя"
-    description = "Набліжаем новую Беларусь"
-    contentDir = "content/be"
-    [[languages.be.menu.main]]
-      identifier = "donate"
-      url = "https://www.talaka.org/projects/3341/overview"
-      name = "Дапамагчы"
-      weight = 0
-    [[languages.be.menu.main]]
-      identifier = "about"
-      url = "/about/"
-      name = "Пра нас"
-      weight = 100
+[languages.be]
+weight = 2
+title = "Канстытуцыя"
+description = "Набліжаем новую Беларусь"
+contentDir = "content/be"
+
+[languages.ru]
+weight= 1
+title = "Конституция"
+description = "Приближаем новую Беларусь"
+contentDir = "content/ru"
 
 [params]
-  featured_image = "https://scontent.fvno1-1.fna.fbcdn.net/v/t1.0-9/70400549_494952407984177_7647418295364091904_o.jpg?_nc_cat=107&_nc_oc=AQmFGyeOTno9WCVyRRyzitg4npHEpLBjs7j3idk70vZ2lpPFfaWpdRa3_55CBNmgBaE&_nc_ht=scontent.fvno1-1.fna&oh=7a29f28de6e03d3cd6c1cec17e13e696&oe=5ECC0680"
-  facebook = "https://www.facebook.com/svezhyvecer/"
-  twitter = "https://twitter.com/Svezhyvecer"
-  instagram = "https://www.instagram.com/constitution_belarus/"
-  telegram = "https://t.me/s/svezhyvecer"
-  vk = "https://vk.com/svezhyvecer"
-  youtube = "https://www.youtube.com/channel/UCPrAHimL4WejRN7udYFN_Sg"
-  mainSections = ["posts"]
+help_url = "https://www.talaka.org/projects/3341/overview"
+featured_image = "img/bg.jpg"
+facebook = "https://www.facebook.com/svezhyvecer/"
+twitter = "https://twitter.com/Svezhyvecer"
+instagram = "https://www.instagram.com/constitution_belarus/"
+telegram = "https://t.me/s/svezhyvecer"
+vk = "https://vk.com/svezhyvecer"
+youtube = "https://www.youtube.com/channel/UCPrAHimL4WejRN7udYFN_Sg"
+mainSections = ["posts"]
+
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+
+# main menu
+[[menu.main]]
+URL = "/"
+identifier = "main"
+weight = 1
+
+[[menu.main]]
+URL = "about"
+identifier = "about"
+weight = 2
+
+[[menu.main]]
+URL = "join"
+identifier = "join"
+weight = 3
+
+[params.banner]
+bgImage = ""
+title = "Что такое Свежий Ветер"
+image = "img/book.svg"

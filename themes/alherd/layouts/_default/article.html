@@ -1,0 +1,24 @@
+<article class="mb-5">
+    <h2 class="h4">
+        <a class="post-title" href="{{ .Permalink }}">
+            {{ .Title | markdownify }}
+        </a>
+    </h2>
+    <div class="mb-3 post-meta">
+        <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize | lower }}">
+            {{ .Params.Author | title | humanize }}
+        </a>,
+        {{ $date := .PublishDate}}
+        {{ $date.Day }} {{ index $.Site.Data.months (printf "%d" $date.Month) }} {{printf "%d" $date.Year}}
+
+        {{ range .Params.Categories }}
+        <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">
+            {{ . | title | humanize }}
+        </a>
+        {{ end }}
+    </div>
+    <p>{{.Summary}}</p>
+    <a href="{{ .Permalink }}" class="btn btn-sm btn-transparent pl-0">
+        {{ i18n "readMore"}}
+    </a>
+</article>

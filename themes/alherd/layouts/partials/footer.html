@@ -1,0 +1,130 @@
+<!-- footer -->
+<footer class="py-4 bg-light border-top">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-lg-2 text-center text-lg-left mb-4 mb-lg-0">
+                <a href="{{ .Site.BaseURL }}" class="d-block pb-3">
+                    <img class="img-fluid"
+                         width="65"
+                         height="65"
+                         src='{{ "img/logo.png" | relURL }}'
+                         alt="{{ .Site.Title }}">
+                </a>
+            </div>
+            <div class="col-lg-6 text-center mb-4 mb-lg-0">
+                <ul class="list-inline mb-0">
+                    {{ range .Translations }}
+                    <li class="list-inline-item">
+                        <a class="nav-link" href="{{ .RelPermalink }}">
+                            {{ i18n .Lang }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ $currentPage := . }}
+                    {{ $list := (.Site.Menus.main) }}
+                    {{ $len := (len $list) }}
+                    {{ range $index, $element := $list }}
+                    <li class='list-inline-item'>
+                        <a class='text-dark d-block p-2'
+                           href="{{ .URL | absLangURL }}">
+                            {{ i18n .Identifier }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+                <ul class="list-inline social-icon mb-0">
+                    <!-- TODO: Add follow intents where available TODO: Revisit color and hover color -->
+                    {{ $icon_size := "43px" }}
+
+                    {{ with .Param "facebook" }}
+                    <li class="list-inline-item">
+                        <a href="{{ . }}" target="_blank" class="link-transition facebook link dib z-999 pt3 pt0-l mr1" title="Facebook link" rel="noopener" aria-label="follow on Facebook——Opens in a new window">
+                            {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Param "twitter" }}
+                    <li class="list-inline-item">
+                        <a href="{{ . }}" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+                            {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Param "instagram" }}
+                    <li class="list-inline-item">
+                        <a href="{{ . }}" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+                            {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Param "telegram" }}
+                    <li class="list-inline-item">
+                        <a href="{{ . }}" target="_blank" class="link-transition telegram link dib z-999 pt3 pt0-l mr1" title="Telegram link" rel="noopener" aria-label="follow on Telegram——Opens in a new window">
+                            {{ partial "svg/telegram.svg" (dict "size" $icon_size) }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Param "vk" }}
+                    <li class="list-inline-item">
+                        <a href="{{ . }}" target="_blank" class="link-transition vk link dib z-999 pt3 pt0-l mr1" title="VK link" rel="noopener" aria-label="follow on VK——Opens in a new window">
+                            {{ partial "svg/vk.svg" (dict "size" $icon_size) }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Param "youtube" }}
+                    <li class="list-inline-item">
+                        <a href="{{ . }}"
+                           target="_blank"
+                           class="link-transition youtube link dib z-999 pt3 pt0-l mr1"
+                           title="Youtube link" rel="noopener" aria-label="follow on Youtube——Opens in a new window">
+                            {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Param "github" }}
+                    <li class="list-inline-item">
+                        <a href="{{ . }}" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+                            {{ partial "svg/github.svg" (dict "size" $icon_size) }}
+                        </a>
+                    </li>
+                    {{ end }}
+
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <span>{{ .Site.Params.copyright | markdownify }}</span>
+        </div>
+    </div>
+</footer>
+<!-- /footer -->
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- google analitycs -->" | safeHTML }}
+{{ with .Site.Params.google_analitycs_id }}
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src   = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ . }}', 'auto');
+    ga('send', 'pageview');
+</script>
+{{ end }}

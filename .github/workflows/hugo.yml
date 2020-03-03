@@ -11,8 +11,9 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.63.1'
+        extended: true
     - name: Build
-      run: hugo -D
+      run: hugo -D --baseUrl https://konstbel.github.io/landing/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
