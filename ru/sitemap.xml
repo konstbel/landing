@@ -3,105 +3,105 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://konstbel.netlify.com/posts/</loc>
+    <loc>https://konstbel.github.io/landing/posts/</loc>
     <lastmod>2020-02-01T16:17:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.netlify.com/be/posts/"
+                href="https://konstbel.github.io/landing/be/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.netlify.com/posts/"
+                href="https://konstbel.github.io/landing/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.netlify.com/posts/2020-02-01-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-201231/</loc>
+    <loc>https://konstbel.github.io/landing/posts/2020-02-01-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-201231/</loc>
     <lastmod>2020-02-01T16:17:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://konstbel.netlify.com/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/</loc>
-    <lastmod>2020-02-01T16:17:51+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="be"
-                href="https://konstbel.netlify.com/be/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://konstbel.netlify.com/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://konstbel.netlify.com/</loc>
+    <loc>https://konstbel.github.io/landing/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/</loc>
     <lastmod>2020-02-01T16:17:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.netlify.com/be/"
+                href="https://konstbel.github.io/landing/be/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.netlify.com/"
+                href="https://konstbel.github.io/landing/posts/%D0%B2%D1%8B%D0%B1%D0%BE%D1%802020/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.netlify.com/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
+    <loc>https://konstbel.github.io/landing/</loc>
+    <lastmod>2020-02-01T16:17:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="be"
+                href="https://konstbel.github.io/landing/be/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://konstbel.github.io/landing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.netlify.com/be/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                href="https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.netlify.com/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                href="https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.netlify.com/posts/pochemu-my-protiv-uchastiya-vyborah123123/</loc>
+    <loc>https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah123123/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://konstbel.netlify.com/admin/</loc>
+    <loc>https://konstbel.github.io/landing/admin/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://konstbel.netlify.com/join/</loc>
+    <loc>https://konstbel.github.io/landing/join/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.netlify.com/be/join/"
+                href="https://konstbel.github.io/landing/be/join/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.netlify.com/join/"
+                href="https://konstbel.github.io/landing/join/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.netlify.com/about/</loc>
+    <loc>https://konstbel.github.io/landing/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.netlify.com/be/about/"
+                href="https://konstbel.github.io/landing/be/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.netlify.com/about/"
+                href="https://konstbel.github.io/landing/about/"
                 />
   </url>
   
