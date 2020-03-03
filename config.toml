@@ -2,7 +2,6 @@ baseURL = "https://konstbel.netlify.com/"
 theme = "alherd"
 defaultContentLanguage = "ru"
 disableKinds = ['taxonomy', 'taxonomyTerm']
-#defaultContentLanguageInSubdir = true
 summaryLength = 40
 
 [markup.goldmark.renderer]
@@ -62,32 +61,7 @@ URL = "join"
 identifier = "join"
 weight = 3
 
-# footer menu
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
-
-
 [params.banner]
 bgImage = ""
 title = "Что такое Свежий Ветер"
 image = "img/book.svg"
-
-[[params.social]]
-icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-link = "#"
