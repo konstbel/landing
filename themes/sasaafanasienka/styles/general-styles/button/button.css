@@ -1,0 +1,23 @@
+.button {
+    background: #2F2C39;
+    box-shadow: 0px 14px 21px rgba(47, 44, 57, 0.3);
+    border-radius: 6px;
+    padding: 1.375em 1.375em 1.2em 1.375em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button_center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button_gray {
+    background: #ebebec;
+
+}
+
+.button__menu-icon {
+    width: 1em;
+}

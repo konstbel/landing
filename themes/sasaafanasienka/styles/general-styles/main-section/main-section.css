@@ -1,0 +1,7 @@
+@import url('./__image/main-section__image.css');
+@import url('./__img/main-section__img.css');
+
+.main-section {
+    box-sizing: border-box;
+    padding: 0 1.5em 0 1.5em;
+}

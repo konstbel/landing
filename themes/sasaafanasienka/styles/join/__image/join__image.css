@@ -1,0 +1,11 @@
+.join__image {
+    /* position: absolute;
+    left: 0;
+    top: 0px; */
+
+    width: 100%;
+
+    margin: 0 0 -45px 0;
+    overflow: hidden;
+    z-index: -5;
+}

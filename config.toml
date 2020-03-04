@@ -1,4 +1,4 @@
-baseURL = "https://konstbel.github.io/landing/"
+baseURL = "https://svezhyvecer.by/"
 theme = "ananke"
 defaultContentLanguage = "ru"
 
@@ -6,6 +6,7 @@ defaultContentLanguage = "ru"
   [languages.ru]
     title = "Конституция"
     description = "Приближаем новую Беларусь"
+    contentDir = "content/ru"
     [[languages.ru.menu.main]]
       identifier = "donate"
       url = "https://www.talaka.org/projects/3341/overview"
@@ -20,6 +21,7 @@ defaultContentLanguage = "ru"
   [languages.be]
     title = "Канстытуцыя"
     description = "Набліжаем новую Беларусь"
+    contentDir = "content/be"
     [[languages.be.menu.main]]
       identifier = "donate"
       url = "https://www.talaka.org/projects/3341/overview"

@@ -1,0 +1,7 @@
+.main-section__img {
+    right: -255px;
+    z-index: -5;
+    position: absolute;
+    width: 670px;
+    bottom: 0px;
+}
