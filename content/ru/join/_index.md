@@ -1,12 +1,12 @@
 ---
-title: "Как присоединится"
+title: "Как присоединиться"
 ---
 
-## Как присоединится
+## Как присоединиться
 
 #### 1. Следить за событиями:
  
-Присоеденитяйтесь к нам в социальных сетях и мессенджерах:
+Присоединяйтесь к нам в социальных сетях и мессенджерах:
 - [YouTube](https://www.youtube.com/channel/UCPrAHimL4WejRN7udYFN_Sg)
 - [Facebook](https://www.facebook.com/svezhyvecer)
 - [Telegram](https://t.me/svezhyvecer)
