@@ -1,0 +1,24 @@
+@import url('./text/text.css');
+@import url('./title/title.css');
+@import url('./subtitle/subtitle.css');
+@import url('./main-section/main-section.css');
+@import url('./button/button.css');
+
+.body {
+    position: relative;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(106.11deg, #BADBF9 -16.27%, rgba(255, 255, 255, 0) 62.99%);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    padding: 0;
+}

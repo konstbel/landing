@@ -1,0 +1,27 @@
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8em;
+    line-height: 113.4%;
+    color: #2F2C39;
+    margin: 0 0 1em 0;
+}
+
+.title_center {
+    text-align: center;
+    margin: 0 auto 1em auto;
+}
+
+@media (min-width: 500px) {
+    .title {
+        font-size: 2.625em;
+        margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 750px) {
+    .title {
+        width: 60%;
+    }
+}
