@@ -13,7 +13,7 @@ jobs:
         hugo-version: '0.63.1'
         extended: true
     - name: Build
-      run: hugo -D --baseUrl https://konstbel.github.io/landing/
+      run: hugo -D --baseUrl https://konstbel.github.io/landing/ --theme sasaafanasienka
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
