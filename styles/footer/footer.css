@@ -5,7 +5,7 @@
 @import url('./__social-buttons-container/footer__social-buttons-container.css');
 @import url('./__social-button/footer__social-button.css');
 @import url('./__items-container/footer__items-container.css');
-@import url('./__link/footer__link.css');
+@import url('./link/footer__link.css');
 @import url('./__langs-container/footer__langs-contaner.css');
 @import url('./__lang-selector/footer__lang-selector.css');
 
