@@ -1,13 +1,13 @@
-@import url('./__logo/footer__logo.css');
-@import url('./__logo-container.css/footer__logo-container.css');
-@import url('./__logo-text/footer__logo-text.css');
-@import url('./__title/footer__title.css');
-@import url('./__social-buttons-container/footer__social-buttons-container.css');
-@import url('./__social-button/footer__social-button.css');
-@import url('./__items-container/footer__items-container.css');
-@import url('./__link/footer__link.css');
-@import url('./__langs-container/footer__langs-contaner.css');
-@import url('./__lang-selector/footer__lang-selector.css');
+@import url('./logo/footer__logo.css');
+@import url('./logo-container.css/footer__logo-container.css');
+@import url('./logo-text/footer__logo-text.css');
+@import url('./title/footer__title.css');
+@import url('./social-buttons-container/footer__social-buttons-container.css');
+@import url('./social-button/footer__social-button.css');
+@import url('./items-container/footer__items-container.css');
+@import url('./link/footer__link.css');
+@import url('./langs-container/footer__langs-contaner.css');
+@import url('./lang-selector/footer__lang-selector.css');
 
 .footer {
     background-color: #2F2C39;
