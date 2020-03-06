@@ -1,4 +1,4 @@
-.footer__title {
+.menu__title {
     color: white;
     
     font-family: Montserrat;
@@ -9,4 +9,12 @@
     /* or 26px */
 
     text-align: center;
+}
+
+@media (min-width: 800px) {
+    .menu__title {
+        margin-top: 0;
+        width: 10em;
+        text-align: left;
+    }
 }

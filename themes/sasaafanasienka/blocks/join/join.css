@@ -1,4 +1,5 @@
 @import url('./__image/join__image.css');
+@import url('./__buttons-container/join__buttons-container.css');
 
 .join {
     display: flex;

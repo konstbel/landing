@@ -34,3 +34,21 @@
         bottom: -680px;
     }
 }
+
+@media (min-width: 900px) {
+    .about__image {
+        bottom: -580px;
+    }
+}
+
+@media (min-width: 950px) {
+    .about__image {
+        bottom: -480px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .about__image {
+        bottom: -410px;
+    }
+}

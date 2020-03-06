@@ -1,4 +1,4 @@
-.footer__social-button {
+.menu__social-button {
     width: 3.12em;
     height: 2.12em;
     border-radius: 3px;
@@ -16,7 +16,8 @@
     user-select: none;
 }
 
-.footer__social-button:last-of-type {
-    /* margin-right: 0; */
-    
+@media (min-width: 800px) {
+    .menu__social-button {
+        margin-bottom: 6px;
+    }
 }
