@@ -1,0 +1,86 @@
+/*---------------------------------
+    Fonts
+  ---------------------------------*/
+
+$font-montserrat: 'Montserrat', ;
+
+/*---------------------------------
+    Font sizes
+  ---------------------------------*/
+$font-size-small: 12px;
+$font-size-normal: 16px;
+$font-size-large: 28px;
+$font-size-xlarge: 30px;
+$font-size-huge: 42px;
+
+$font-size-art-tit:18px;
+
+
+/*---------------------------------
+    Colors
+  ---------------------------------*/
+$color-black: #2F2C39;
+$color-white: #FFFFFF;
+$color-white-a: #F3F2F5;
+$color-gray: #575669;
+$color-light-gray:#9D9D9D;
+$color-primary: #007CEB;
+$color-secondary: rgba(47, 44, 57, 0.09);
+$color-bg-gradient-a: linear-gradient(112.54deg, #BADBF9 -187.14%, rgba(255, 255, 255, 0) 59.78%);
+$color-bg-gradient-b: linear-gradient(-90deg, #BADBF9 -146.14%, rgba(255, 255, 255, 0) 50%);
+
+
+/**/
+$border-r: 30px;
+
+/*---------------------------------
+    Mixins
+  ---------------------------------*/
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+
+
+
+/*---------------------------------
+    Bootstrap variables
+  ---------------------------------*/
+//$link-color: $color-accent;
+//$link-hover-color: $color-accent;
+//$btn-default-color: $color-accent;
+//$btn-default-bg:  transparent;
+//$btn-default-border: $color-accent;
+//
+//$btn-info-color: $color-accent;
+//$btn-info-bg: $color-white;
+//$btn-info-border: $color-white;
+//
+//$btn-primary-color:              #fff;
+//$btn-primary-bg:                 $color-accent;
+//$btn-primary-border:             $color-accent;
+//
+//$btn-font-weight: 900;
+//
+//$modal-lg:                    800px !default;
+//$modal-md:                    500px !default;
+//$modal-header-border-color: transparent;
+//$modal-inner-padding:         10px 45px !default;
+//$modal-title-padding:         40px 45px 10px !default;
+//$modal-content-bg:               #f3f5f9;
+//
+//$input-bg:                       #e4e7ed !default;
+//$input-color:                    #a1a1a1 !default;
+//$input-border:                   #e4e7ed !default;
+//
+////** Horizontal line color.
+//$hr-border:                   $color-light-gray3 !default;
+//
+////** `.form-group` margin
+//$form-group-margin-bottom:       20px !default;
+//
+////** Modal backdrop opacity
+//$modal-backdrop-opacity:      .7 !default;
