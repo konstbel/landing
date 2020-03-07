@@ -1,0 +1,8 @@
+@import url('./__image/join__image.css');
+
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
