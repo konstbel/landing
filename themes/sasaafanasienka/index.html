@@ -4,72 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Волонтерская общественная кампания, созданная белорусами
+    <meta name="description" content="Волонтерская общественная кампания, созданная белорусами 
     в 2019 году с целью защиты независимости Беларуси от углубленной интеграции с Россией">
     <title>Document</title>
-    <link rel="shortcut icon" type="image/png" href='{{ "images/favicon.png" | absURL }}'/>
-    <link rel="stylesheet" href='{{"styles/index.css" | absURL }}'>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+    <link rel="stylesheet" href="../styles/index.css">
 </head>
 <body class='body'>
     <header class="header">
-        <img class='header__logo' src='{{ "images/logo.svg" | absURL }}' alt="Логотип">
+        <img class='header__logo' src="../images/logo.svg" alt="Логотип">
         <button class='button header__button'>
-            <img class='button__menu-icon' src='{{ "images/menu_button.svg" | absURL }}' alt="кнопка меню">
+            <img class='button__menu-icon' src="../images/menu_button.svg" alt="кнопка меню">
         </button>
+        <div class="menu__items-container menu__items-container_links-langs">
+            <div class="menu__links-container">
+                <p class='menu__link menu__link_active'><a href="#">Главная</a></p>
+                <p class='menu__link'><a href="#">О нас</a></p>
+            </div>
+            <div class="menu__langs-links-container">
+                <div class="menu__langs-container">
+                    <p class="menu__lang-selector menu__lang-selector_active">бел</p>
+                    <p class="menu__lang-selector">рус</p>                
+                </div>
+                <button class='button'>Присоединиться</button>    
+            </div>
+        </div>
     </header>
     <section class='main-section about'>
         <h2 class='title'>Что такое “Свежий Ветер”?</h2>
-        <p class="text">"Свежий Ветер" - волонтерская общественная кампания, созданная белорусами
+        <p class="text">"Свежий Ветер" - волонтерская общественная кампания, созданная белорусами 
             в 2019 году с целью защиты независимости Беларуси от углубленной интеграции с Россией.</p>
-        <p class="text">Две главные опасности этого года - изменение Конституции Беларуси в сторону возможности
-            углубленной интеграции во время фейковых президентских выборов, которые состоятся летом этого года,
-            и сами выборы, которые, несомненно, будут фальсифицированы белорусскими властями для продолжения
+        <p class="text">Две главные опасности этого года - изменение Конституции Беларуси в сторону возможности 
+            углубленной интеграции во время фейковых президентских выборов, которые состоятся летом этого года, 
+            и сами выборы, которые, несомненно, будут фальсифицированы белорусскими властями для продолжения 
             существования нынешней антидемократической системы.</p>
-        <button class='button text text_button'>Узнать больше</button>
+        <button class='button'>Узнать больше</button>
         <div class="about__image">
-            <img class='about__img' src='{{ "images/kanstytucyja.svg" | absURL }}' alt="Орнамент">
+            <img class='about__img' src="../images/kanstytucyja.svg" alt="Орнамент">    
         </div>
     </section>
     <section class='main-section join'>
-        <img class='join__image' src='{{ "images/arnament.svg" | absURL }}' alt="">
+        <img class='join__image' src="../images/arnament.svg" alt="">
         <h2 class='title title_center'>Как присоедениться?</h2>
         <p class="text text_center">Если вы хотите присоединиться к нашей компании - пишите нам, приходите к нам, зовите нас
-            в свой город. Давайте вместе сделаем так, чтобы нашим детям и внукам было где жить, было чем дышать
-            и чувствовать себя полноправными гражданами своей страны. Чтобы мы действительно имели право сами решать
+            в свой город. Давайте вместе сделаем так, чтобы нашим детям и внукам было где жить, было чем дышать 
+            и чувствовать себя полноправными гражданами своей страны. Чтобы мы действительно имели право сами решать 
             за себя и людьми зваться.</p>
         <p class="text text_center text_important">"Любіш Беларусь? - Дык узаемна!"</p>
-        <button class='button button_center text text_button'>Присоединиться</button>
-        <button class='button button_center button_gray text text_button-black'>Узнать больше</button>
+        <div class="join__buttons-container">
+            <button class='button'>Присоединиться</button>
+            <button class='button button_gray'>Узнать больше</button>    
+        </div>
     </section>
     <footer class="footer">
-        <div class="footer__items-container">
-            <img class='footer__logo' src='{{ "images/logo_white.svg" | absURL }}' alt="Логотип">
-            <p class='footer__logo-text text text_white text_center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur </p>
+        <div class="menu__items-container menu__items-container_logo">
+            <img class='menu__logo' src="../images/logo_white.svg" alt="Логотип">
+            <p class='text text_white menu__logo-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur </p>
         </div>
-        <div class="footer__items-container">
-            <h5 class='footer__title'>Мы в социальных сетях</h5>
-            <div class="footer__social-buttons-container">
-                <button class="footer__social-button"><img src='{{ "images/facebook_white.svg" | absURL }}' alt="Facebook"></button>
-                <button class="footer__social-button"><img src='{{ "images/twitter_white.svg" | absURL }}' alt="Twitter"></button>
-                <button class="footer__social-button"><img src='{{ "images/instagram_white.svg" | absURL }}' alt="Instagram"></button>
-                <button class="footer__social-button"><img src='{{ "images/telegram_white.svg" | absURL }}' alt="Telegram"></button>
-                <button class="footer__social-button"><img src='{{ "images/vk_white.svg" | absURL }}' alt="Вконтакте"></button>
-                <button class="footer__social-button"><img src='{{ "images/youtube_white.svg" | absURL }}' alt="Youtube"></button>
-                <button class="footer__social-button"><img src='{{ "images/viber_white.svg" | absURL }}' alt="Viber"></button>
-
-
+        <div class="menu__items-container menu__items-container_social">
+            <h5 class='menu__title'>Мы в социальных сетях</h5>
+            <div class="menu__social-buttons-container">
+                <button class="menu__social-button"><img src="../images/facebook_white.svg" alt="Facebook"></button>
+                <button class="menu__social-button"><img src="../images/twitter_white.svg" alt="Twitter"></button>
+                <button class="menu__social-button"><img src="../images/instagram_white.svg" alt="Instagram"></button>
+                <button class="menu__social-button"><img src="../images/telegram_white.svg" alt="Telegram"></button>
+                <button class="menu__social-button"><img src="../images/vk_white.svg" alt="Вконтакте"></button>
+                <button class="menu__social-button"><img src="../images/youtube_white.svg" alt="Youtube"></button>
+                <button class="menu__social-button"><img src="../images/viber_white.svg" alt="Viber"></button>
             </div>
-            <ul class="footer__links-container">
-                <li class='footer__link footer__link_active'><a href="#">Главная</a></li>
-                <li class='footer__link'><a href="#">О нас</a></li>
-            </ul>
-            <div class="footer__langs-container">
-                <p class="text text_button footer__lang-selector footer__lang-selector_active">бел</p>
-                <p class="text text_button footer__lang-selector">рус</p>
+        </div>
+        <div class="menu__items-container menu__items-container_links-langs">
+            <div class="menu__links-container">
+                <p class='menu__link menu__link_active'><a href="#">Главная</a></p>
+                <p class='menu__link'><a href="#">О нас</a></p>
             </div>
-            <button class='button button_center button_white text text_button-black'>Присоединиться</button>
+            <div class="menu__langs-links-container">
+                <div class="menu__langs-container">
+                    <p class="menu__lang-selector menu__lang-selector_active">бел</p>
+                    <p class="menu__lang-selector">рус</p>                
+                </div>
+                <button class='button button_center button_white'>Присоединиться</button>    
+            </div>
         </div>
     </footer>
-
+    
 </body>
 </html>

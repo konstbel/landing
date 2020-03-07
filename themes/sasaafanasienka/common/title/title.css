@@ -24,4 +24,14 @@
     .title {
         width: 60%;
     }
+
+    .join .title {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .title {
+        width: 50%;
+    }
 }

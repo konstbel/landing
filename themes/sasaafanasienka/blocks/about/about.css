@@ -18,3 +18,20 @@
         margin-bottom: 550px;
     }
 }
+
+@media (min-width: 850px) {
+    .about {
+        margin-bottom: 500px;
+    }
+}
+
+@media (min-width: 900px) {
+    .about {
+        margin-bottom: 400px;
+    }
+}
+@media (min-width: 950px) {
+    .about {
+        margin-bottom: 300px;
+    }
+}
