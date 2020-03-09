@@ -1,0 +1,18 @@
+.main-section {
+    box-sizing: border-box;
+    padding: 0 1.5em 0 1.5em;
+}
+
+@media (min-width: 500px) {
+    .main-section {
+        padding: 0 2.5em 0 2.5em;
+
+    }
+}
+
+@media (min-width: 800px) {
+    .main-section {
+        padding: 0 5em 0 5em;
+
+    }
+}
