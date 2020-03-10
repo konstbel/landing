@@ -13,12 +13,13 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
-- name: authors
-  type: tag_list
-  default: []
+- name: author
+  type: text
+  config:
+    required: false
   label: Автор(ы)
 pages:
 - content/ru/posts/свежий-пост.md
