@@ -20,3 +20,5 @@ fields:
   type: tag_list
   default: []
   label: Автор(ы)
+pages:
+- content/ru/posts/свежий-пост.md
