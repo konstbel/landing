@@ -1,0 +1,23 @@
+.menu__social-button {
+    width: 3.12em;
+    height: 2.12em;
+    border-radius: 3px;
+    background-color: #504e59;
+    border-style: none;
+    margin: 0 3px 6px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 1em;
+    user-select: none;
+}
+
+@media (min-width: 800px) {
+    .menu__social-button {
+        margin-bottom: 6px;
+    }
+}
