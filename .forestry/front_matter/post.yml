@@ -1,0 +1,22 @@
+---
+label: Post
+hide_body: false
+fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Заголовк
+  - name: date
+    type: datetime
+    label: Дата поста
+    description: ''
+    config:
+      required: false
+      date_format:
+      time_format:
+      display_utc: false
+  - name: authors
+    type: tag_list
+    default: []
+    label: Автор(ы)
