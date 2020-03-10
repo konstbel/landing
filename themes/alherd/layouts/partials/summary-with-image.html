@@ -1,8 +1,7 @@
-{{ $featured_image := .Params.featured_image }}
 <article>
     {{ if .Params.featured_image }}
     {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-    {{ $featured_image := (trim $featured_image "/") | absURL }}
+    {{ $featured_image := (trim .Params.featured_image "/") | absURL }}
     <div class="col-sm-12" style="height: 250px;padding-left: 0;padding-right: 0;padding-bottom: 15px">
         <a href="{{.Permalink}}" class="db grow">
             <img src="{{ $featured_image }}" class="img-fluid" alt="image from {{ .Title }}">
