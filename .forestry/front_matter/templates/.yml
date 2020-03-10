@@ -1,0 +1,19 @@
+---
+label: Тестовый пост
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: author
+  label: author
+- type: text
+  name: description
+  label: description
+- type: file
+  name: featured_image
+  label: featured_image
