@@ -13,15 +13,15 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: author
   type: text
   config:
     required: false
   label: Автор(ы)
-- name: featured_img
+- name: featured_image
   type: file
   config:
     maxSize: 250
