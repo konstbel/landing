@@ -21,5 +21,10 @@ fields:
   config:
     required: false
   label: Автор(ы)
+- name: featured_img
+  type: file
+  config:
+    maxSize: 250
+  label: Изображение
 pages:
 - content/ru/posts/свежий-пост.md
