@@ -1,0 +1,20 @@
+.menu__title {
+    color: white;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 138.4%;
+    /* or 26px */
+
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .menu__title {
+        margin-top: 0;
+        width: 10em;
+        text-align: left;
+    }
+}
