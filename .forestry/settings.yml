@@ -7,12 +7,12 @@ sections:
 - type: directory
   path: content/ru/posts
   label: Посты на русском
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: content/be/posts
   label: Посты на беларусском
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
