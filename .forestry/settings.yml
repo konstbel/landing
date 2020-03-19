@@ -2,13 +2,13 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
-  path: content/ru/posts
-  label: Посты на русском
+  path: content/ru
+  label: Контент на русском
   create: documents
-  match: "**/*"
+  match: "{posts/*,about/*,join/*}"
 - type: directory
   path: content/be/posts
   label: Посты на беларусском
