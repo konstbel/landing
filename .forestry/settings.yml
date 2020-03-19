@@ -14,12 +14,16 @@ sections:
   label: Посты на беларусском
   create: documents
   match: "**/*"
-
 - type: directory
   path: content
   label: О нас
   create: nothing
   match: "{ru/about/_index.md,be/about/_index.md}"
+- type: directory
+  path: content
+  label: Присоединится
+  create: nothing
+  match: "{ru/join/_index.md,be/join/_index.md}"
 
 upload_dir: static/uploads
 public_path: "/uploads"
