@@ -23,7 +23,7 @@ sections:
   path: content
   label: Присоединится
   create: nothing
-  match: "{ru/join/_index.md,be/join/_index.md}"
+  match: "{be/join/_index.md,be/join/_index.md}"
 
 upload_dir: static/uploads
 public_path: "/uploads"
