@@ -10,10 +10,15 @@ sections:
   create: documents
   match: "{posts/*,about/*,join/*}"
 - type: directory
-  path: content/be/posts
+  path: content
+  label: О нас
+  create: nothing
+  match: "{ru/about/_index.md,be/about/_index.md}"
+- type: directory
+  path: content/be
   label: Посты на беларусском
   create: documents
-  match: "**/*"
+  match: "{posts/*,about/*,join/*}"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
