@@ -1,10 +1,9 @@
 import { Router } from 'express';
 import argon2 from 'argon2';
 import jwt from 'jsonwebtoken';
-import fs from 'fs';
 import { db } from '../db';
 
-const secret = fs.readFileSync('secret');
+const secret = process.env.SECRET;
 const router = Router();
 
 router.post('/login', async (req, res, next) => {

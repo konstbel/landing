@@ -1,7 +1,6 @@
 import jwt from 'jsonwebtoken';
-import fs from 'fs';
 
-const secret = fs.readFileSync('./secret');
+const secret = process.env.SECRET;
 
 const isAuthorized = (authJwt) => {
   try {
