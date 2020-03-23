@@ -40,7 +40,11 @@ router.post('/publish', authorize, async (req, res, next) => {
         text,
       }
     ));
-    msgs.each(sgMail.send);
+    const promises = msgs.forEach((msg) => sgMail.send(msg));
+    Promise.all(promises).then(function(values) {
+      console.log(values);
+    });
+    res.json({ status: 'ok' });
   } catch (e) {
     next(e);
   }

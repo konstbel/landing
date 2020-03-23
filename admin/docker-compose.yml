@@ -5,16 +5,17 @@ services:
     volumes:
       - ./infrastructure/data/db:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=konstbel
-      - POSTGRES_USER=konstbel
-      - POSTGRES_PASSWORD=konstbelpassword
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - SENDGRID_API_KEY=${SENDGRID_API_KEY}
   backend_web:
     build: ./backend/
     working_dir: /app
     command: sh -c "yarn watch:dev"
     environment:
-      - DATABASE_URL=postgres://konstbel:konstbelpassword@db:5432/konstbel
-      - SECRET=verysecurestring
+      - DATABASE_URL=${DATABASE_URL}
+      - SECRET=${SECRET}
     ports:
       - '3000:3000'
     volumes:
