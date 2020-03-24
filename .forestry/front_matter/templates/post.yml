@@ -1,0 +1,30 @@
+---
+label: Post
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Заголовок
+- name: date
+  type: datetime
+  label: Дата поста
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: author
+  type: text
+  config:
+    required: false
+  label: Автор(ы)
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Изображение
+pages:
+- content/ru/posts/свежий-пост.md

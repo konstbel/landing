@@ -12,9 +12,7 @@
                 <h2>{{ .Title | markdownify }}</h2>
                 <div class="mb-3 post-meta">
                     {{ if .Params.Author}}
-                    <span href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize | lower }}">
-                        {{ .Params.Author | title | humanize }}
-                    </span>,
+                        {{ .Params.Author | title | humanize }},
                     {{ end }}
                     {{ $date := .PublishDate}}
                     {{ $date.Day }} {{ index $.Site.Data.months (printf "%d" $date.Month) }} {{printf "%d" $date.Year}}
