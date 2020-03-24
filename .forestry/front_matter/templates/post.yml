@@ -26,5 +26,3 @@ fields:
   config:
     maxSize: 250
   label: Изображение
-pages:
-- content/ru/posts/свежий-пост.md
