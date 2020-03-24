@@ -9,11 +9,13 @@ sections:
   label: Посты на русском
   create: documents
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/be/posts
   label: Посты на беларусском
   create: documents
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content
   label: О нас
