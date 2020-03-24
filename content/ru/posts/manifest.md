@@ -1,6 +1,6 @@
 +++
 title = "Манифест 2020"
-date = 2020-02-01T16:18:51.912Z
+date = 2020-02-01
 author = "Владимир Мацкевич"
 featured_image = "/uploads/mackevich.jpg"
 +++
