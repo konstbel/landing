@@ -4,8 +4,9 @@ import authorize from '../auth';
 import { db } from '../db';
 
 const router = Router();
+const sendgridKey = process.env.SENDGRID_API_KEY;
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+sgMail.setApiKey(sendgridKey);
 
 function getSubsPromise() { return db.any('SELECT * FROM subscriptions'); }
 
@@ -40,10 +41,7 @@ router.post('/publish', authorize, async (req, res, next) => {
         text,
       }
     ));
-    const promises = msgs.forEach((msg) => sgMail.send(msg));
-    Promise.all(promises).then(function(values) {
-      console.log(values);
-    });
+    await msgs.forEach((msg) => sgMail.send(msg));
     res.json({ status: 'ok' });
   } catch (e) {
     next(e);
