@@ -5,9 +5,9 @@
         </a>
     </h2>
     <div class="mb-3 post-meta">
-        <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize | lower }}">
-            {{ .Params.Author | title | humanize }}
-        </a>,
+        {{ if .Params.Author}}
+        {{ .Params.Author | title }},
+        {{ end }}
         {{ $date := .PublishDate}}
         {{ $date.Day }} {{ index $.Site.Data.months (printf "%d" $date.Month) }} {{printf "%d" $date.Year}}
 
@@ -17,6 +17,15 @@
         </a>
         {{ end }}
     </div>
+    {{ if .Params.featured_image }}
+    {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+    {{ $featured_image := (trim .Params.featured_image "/") | absURL }}
+    <div class="col-sm-3 mb-3 p-0">
+        <a href="{{.Permalink}}" class="db grow">
+            <img src="{{ $featured_image }}" class="img-fluid" alt="image from {{ .Title }}">
+        </a>
+    </div>
+    {{ end }}
     <p>{{.Summary}}</p>
     <a href="{{ .Permalink }}" class="btn btn-sm btn-transparent pl-0">
         {{ i18n "readMore"}}
