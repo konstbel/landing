@@ -1,0 +1,52 @@
+.about__img {
+    right: -255px;
+    z-index: -5;
+    position: absolute;
+    width: 210%;
+    bottom: -42px;
+}
+
+@media (min-width: 320px) {
+    .about__img {
+        right: -273px;
+        width: calc(100% * 0.767 + 443px);
+    }
+}
+@media (min-width: 500px) {
+    .about__img {
+        bottom: -20px;
+    }
+}
+@media (min-width: 750px) {
+    .about__img {
+        right: -217px;
+        width: 1000px;
+    }
+}
+@media (min-width: 900px) {
+    .about__img {
+        right: -337px;
+        width: 1000px;
+        bottom: 86px
+    }
+}
+@media (min-width: 1050px) {
+    .about__img {
+        right: -217px;
+        width: calc(100% - 150px);
+    }
+}
+@media (min-width: 1400px) {
+    .about__img {
+        right: -334px;
+        width: calc(100% - 108px);
+        bottom: -28px;
+    }
+}
+@media (min-width: 1450px) {
+    .about__img {
+        right: -334px;
+        width: 1342px;
+        bottom: -28px;
+    }
+}

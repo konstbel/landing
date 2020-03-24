@@ -1,0 +1,15 @@
+.subtitle {
+
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 27px;
+    /* or 142% */
+    
+}
+
+.subtitle_center {
+    text-align: center;
+
+}
