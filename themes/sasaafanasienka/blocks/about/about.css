@@ -3,7 +3,7 @@
 
 .about {
     position: relative;
-    margin-bottom: 400px;
+    margin-bottom: 519px;
     
 }
 
@@ -15,6 +15,33 @@
 
 @media (min-width: 750px) {
     .about {
-        margin-bottom: 550px;
+        margin-bottom: 577px;
+    }
+}
+
+@media (min-width: 850px) {
+    .about {
+        margin-bottom: 500px;
+    }
+}
+
+@media (min-width: 900px) {
+    .about {
+        margin-bottom: 400px;
+    }
+}
+@media (min-width: 950px) {
+    .about {
+        margin-bottom: 234px;
+    }
+}
+@media (min-width: 1400px) {
+    .about {
+        margin-bottom: 290px;
+    }
+}
+@media (min-width: 1600px) {
+    .about {
+        margin-bottom: 200px;
     }
 }

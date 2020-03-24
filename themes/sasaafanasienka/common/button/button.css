@@ -4,12 +4,18 @@
     background: #2F2C39;
     box-shadow: 0px 14px 21px rgba(47, 44, 57, 0.3);
     border-radius: 6px;
-    padding: 1.375em 1.375em 1.2em 1.375em;
+    padding: 0.95em 1.3em .9em 1.3em;
     border: none;
     outline: none;
     cursor: pointer;
     margin-bottom: 1em;
     user-select: none;
+
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 169.4%;
+    color: white;
 }
 
 .button:last-of-type {
@@ -24,13 +30,25 @@
 .button_gray {
     background: #ebebec;
     box-shadow: none;
+    color: #2F2C39;
 }
 
 .button_white {
     background: #ffffff;
     box-shadow: none;
+    color: #2F2C39;
 }
 
 .button__menu-icon {
     width: 1em;
+}
+
+@media (min-width: 750px) {
+    .join__buttons-container .button {
+        margin-bottom: 0;
+    }
+
+    .join__buttons-container .button:first-of-type {
+        margin-right: .6em;
+    }
 }
