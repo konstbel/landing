@@ -27,4 +27,5 @@ fields:
     maxSize: 250
   label: Изображение
 pages:
+- content/ru/posts/дравфт.md
 - content/ru/posts/тестовый-пост.md
