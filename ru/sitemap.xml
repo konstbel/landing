@@ -3,120 +3,125 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://konstbel.github.io/landing/posts/</loc>
-    <lastmod>2020-03-09T21:00:00+00:00</lastmod>
+    <loc>https://alg3rd.github.io/landing/posts/</loc>
+    <lastmod>2020-03-17T21:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/posts/"
+                href="https://alg3rd.github.io/landing/be/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/posts/"
+                href="https://alg3rd.github.io/landing/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/</loc>
-    <lastmod>2020-03-09T21:00:00+00:00</lastmod>
+    <loc>https://alg3rd.github.io/landing/</loc>
+    <lastmod>2020-03-17T21:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/"
+                href="https://alg3rd.github.io/landing/be/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/"
+                href="https://alg3rd.github.io/landing/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/posts/%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA-%D0%BA/</loc>
+    <loc>https://alg3rd.github.io/landing/posts/%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D0%BE%D1%81%D1%82/</loc>
+    <lastmod>2020-03-17T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alg3rd.github.io/landing/posts/%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA-%D0%BA/</loc>
     <lastmod>2020-03-09T21:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/posts/2020-02-01-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-2020/</loc>
+    <loc>https://alg3rd.github.io/landing/posts/2020-02-01-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-2020/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/posts/manifest/</loc>
+    <loc>https://alg3rd.github.io/landing/posts/manifest/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/posts/manifest/"
+                href="https://alg3rd.github.io/landing/be/posts/manifest/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/posts/manifest/"
+                href="https://alg3rd.github.io/landing/posts/manifest/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
+    <loc>https://alg3rd.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                href="https://alg3rd.github.io/landing/be/posts/pochemu-my-protiv-uchastiya-vyborah/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/"
+                href="https://alg3rd.github.io/landing/posts/pochemu-my-protiv-uchastiya-vyborah/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/posts/zvarot/</loc>
+    <loc>https://alg3rd.github.io/landing/posts/zvarot/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/posts/zvarot/"
+                href="https://alg3rd.github.io/landing/be/posts/zvarot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/posts/zvarot/"
+                href="https://alg3rd.github.io/landing/posts/zvarot/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/admin/</loc>
+    <loc>https://alg3rd.github.io/landing/admin/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/join/</loc>
+    <loc>https://alg3rd.github.io/landing/join/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/join/"
+                href="https://alg3rd.github.io/landing/be/join/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/join/"
+                href="https://alg3rd.github.io/landing/join/"
                 />
   </url>
   
   <url>
-    <loc>https://konstbel.github.io/landing/about/</loc>
+    <loc>https://alg3rd.github.io/landing/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
-                href="https://konstbel.github.io/landing/be/about/"
+                href="https://alg3rd.github.io/landing/be/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://konstbel.github.io/landing/about/"
+                href="https://alg3rd.github.io/landing/about/"
                 />
   </url>
   
