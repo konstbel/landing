@@ -27,6 +27,7 @@ fields:
     maxSize: 250
   label: Изображение
 pages:
+- content/ru/posts/asdasdas.md
 - content/ru/posts/asdsadas.md
 - content/ru/posts/asdsadasdasd.md
 - content/ru/posts/test.md
