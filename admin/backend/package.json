@@ -1,0 +1,58 @@
+{
+  "name": "konstbel-admin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "yarn prod",
+    "server": "node ./dist-server/bin/www",
+    "transpile": "babel ./server --out-dir dist-server",
+    "clean": "rm -rf dist-server",
+    "build": "yarn clean && yarn transpile",
+    "dev": "NODE_ENV=development yarn build && yarn server",
+    "prod": "NODE_ENV=production yarn build && yarn server",
+    "watch:dev": "nodemon"
+  },
+  "nodemonConfig": {
+    "exec": "yarn run dev",
+    "watch": [
+      "server/*",
+      "public/*"
+    ],
+    "ignore": [
+      "**/__tests__/**",
+      "*.test.js",
+      "*.spec.js"
+    ]
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@sendgrid/mail": "^6.5.4",
+    "argon2": "^0.26.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "pg-promise": "^10.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
