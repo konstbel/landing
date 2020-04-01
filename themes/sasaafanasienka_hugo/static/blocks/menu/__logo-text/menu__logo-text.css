@@ -1,0 +1,25 @@
+.menu__logo-text {
+    text-align: center;
+    width: 200px;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .menu__logo-text {
+        width: 15em;
+        text-align: left;
+        margin: 0;
+    }
+    .menu__logo-text:last-of-type {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .menu__logo-text {
+        width: 15em;
+        text-align: left;
+        margin: 0;
+    }
+}
