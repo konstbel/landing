@@ -1,0 +1,267 @@
+.menu__title {
+
+  width: 240px;
+  margin: 0 auto .85em auto;
+  color: white;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 138.4%;
+
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .menu__title {
+    margin: 0 0 .85em 0;
+    width: 10em;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu__title {
+    width: 18em;
+  }
+}
+
+.menu__social-button {
+  width: 3.12em;
+  height: 2.22em;
+  border-radius: 3px;
+  background-color: #504e59;
+  border-style: none;
+  margin: 0 3px 6px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 1em;
+  user-select: none;
+}
+
+@media (min-width: 800px) {
+  .menu__social-button {
+    margin-bottom: 6px;
+  }
+}
+
+.menu__items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+
+.menu__items-container:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .header .menu__items-container {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .menu__items-container_logo {
+    justify-content: left;
+  }
+  .menu__items-container_social {
+    justify-content: left;
+  }
+  .menu__items-container_links-langs {
+    justify-content: right;
+  }
+  .header .menu__items-container_links-langs {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu__items-container_links-langs {
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+  }
+}
+.menu__social-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 14em;
+  margin: 0 auto 3em auto;
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .menu__social-buttons-container {
+    width: 11em;
+    margin: 0;
+    justify-content: left;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu__social-buttons-container {
+    width: 25em;
+    margin: 0;
+    justify-content: left;
+  }
+}
+
+.menu__logo {
+  width: 6.5em;
+  margin: 0 auto 1.5em auto;
+}
+
+@media (min-width: 800px) {
+  .menu__logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.menu__link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1em;
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 0 26px 0;
+  color: white;
+}
+
+.menu__link:last-of-type {
+  margin-bottom: 0;
+}
+
+.header .menu__link {
+  color: #2D2D2D;
+}
+
+.header .menu__link_active,
+.menu__link_active {
+  color: #0086FF;
+}
+
+@media (min-width: 800px) {
+  .menu__link {
+    text-align: right;
+    margin-left: 1em;
+    margin-bottom: 0;
+  }
+  .header .menu__link {
+    margin-left: 0;
+    margin-right: 1.5em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu__link {
+    margin-left: 0;
+    margin-right: 1.5em;
+  }
+}
+.menu__links-container {
+  padding: 0;
+  margin: 0 auto 1.9em auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .menu__links-container  {
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .header .menu__links-container  {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu__links-container  {
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
+}
+
+.menu__langs-links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .menu__langs-links-container {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.menu__langs-container {
+  display: flex;
+
+  box-sizing: border-box;
+  padding: 1.2em 1.7em;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  background-color: #504e59;
+  border-style: none;
+  margin: 0 auto 1.25em;
+}
+
+.header .menu__langs-container {
+  background-color: #F3F2F5;
+}
+
+@media (min-width: 800px) {
+  .menu__langs-container {
+    margin-bottom: 0;
+    margin-right: 1.25em;
+  }
+}
+
+.menu__lang-selector {
+  margin: 0 1.2em 0 0;
+  opacity: .3;
+  cursor: pointer;
+
+  font-family: Montserrat Arial, serif;
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 100%;
+  color: white;
+  padding: 0;
+
+}
+
+.menu__lang-selector_active {
+  opacity: 1;
+}
+
+.menu__lang-selector:last-of-type {
+  margin: 0;
+}
+
+.header .menu__lang-selector {
+  color: #2D2D2D;
+}
