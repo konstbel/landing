@@ -60,9 +60,14 @@ identifier = "about"
 weight = 2
 
 [[menu.main]]
+URL = "posts"
+identifier = "posts"
+weight = 3
+
+[[menu.main]]
 URL = "join"
 identifier = "join"
-weight = 3
+weight = 4
 
 [params.banner]
 bgImage = ""
