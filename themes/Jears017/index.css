@@ -1,0 +1,492 @@
+@font-face{
+    font-family: "MontserratEB";
+    src: url(./resourses1/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face{
+    font-family: "MontserratB";
+    src: url(./resourses1/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face{
+    font-family: "MontserratSB";
+    src: url(./resourses1/fonts/Montserrat-SemiBold.ttf);
+}
+
+.keke{
+    width: 320px;
+    margin: 0 auto;
+    background: linear-gradient(270.13deg, #BADBF9 -8.06%, rgba(255, 255, 255, 0) 16.96%), 
+                linear-gradient(142.42deg, #BADBF9 -16.27%, rgba(255, 255, 255, 0) 20.99%);
+}
+
+.header{
+    height: 185px;
+    width:  320px;
+    margin: 0 auto;
+}
+
+.head{
+    display: flex;
+}
+
+.logo{
+    padding-top:32px;
+    padding-left:25px;
+    height: 37px;
+    width: 90px;
+font-style: normal;
+font-weight: 800;
+font-size: 37px;
+font-family: "MontserratEB";
+}
+
+.more{
+    margin-left: 116px;
+    margin-top: 15px;
+}
+
+/* Start of second section */
+
+.about_us{
+    height: 830px;
+    width:  320px;
+    margin: 0 auto;
+}
+
+.about_us_header{
+    padding-left:25px;
+    padding-bottom: 28px;
+    font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 113.4%;
+font-family: "MontserratEB";
+}
+
+.about_us_text{
+    width:277px;
+    height:500px;
+    padding-left:23px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 169.4%;
+color: #575669;
+font-family: "MontserratSB";
+}
+
+.about_us_img{
+    margin-top:51px;
+}
+
+.about_us_img_text{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 140.4%;
+color:#8E9AA5;
+width:276px;
+margin-left: 23px;
+margin-top: -39px;
+font-family: "MontserratSB";
+}
+
+.hundrDays{
+    width:  320px;
+    margin: 0 auto;
+}
+
+.hundrDays_header{
+padding-top:80px;
+padding-left:20px;
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 113.4%;
+color: #2F2C39;
+width:256px;
+font-family: "MontserratEB";
+}
+
+.hundrDays_text{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 169.4%;
+width:280px;
+height: 736px;
+padding-left: 20px;
+padding-top:31px;
+color: #575669;
+font-family: "MontserratSB";
+
+}
+
+.hundrDays_img{
+    margin-top: 30px;
+}
+
+.hundrDays_img_text{
+    font-family: "MontserratSB";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 140.4%;
+color: #8E9AA5;
+margin-top: -38px;
+width: 276px;
+margin-left:21px;
+}
+
+.hundrDays_text_sec{
+    width:280px;
+    height: 509px;
+    padding-left: 21px;
+    padding-top:77px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;    
+line-height: 169.4%;
+color: #575669;
+font-family: "MontserratSB";
+}
+
+.mission{
+    width:  320px;
+    height:1152px;
+    margin: 0 auto; 
+}
+
+.mission_header{
+padding-left: 19px;
+padding-top:48px;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 113.4%;
+font-family: "MontserratEB";
+color: #2F2C39;
+}
+
+.mission_text{
+    width:281px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 169.4%;
+color: #575669;
+margin-top:10px;
+margin-left:20px;
+font-family: "MontserratSB";
+}
+
+.mission_img{
+    margin-top:20px; 
+   background-image: url(./resourses1/Mask\ Group.png);
+   width: 303px;
+   height: 540px;
+}
+
+.mission_img_text{
+    width: 280px;
+    padding-top: 151px;
+    padding-left: 41px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 138.4%;
+    color: #FFFFFF;
+    font-family: "MontserratEB";
+}
+
+.mission_img_text2{
+    width: 280px;
+    padding-left: 76px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 138.4%;
+    color: #FFFFFF;
+    font-family: "MontserratEB";
+}
+
+.mission_img_text3{
+    width: 280px;
+    padding-left: 84px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 138.4%;
+    color: #FFFFFF;
+    font-family: "MontserratEB";
+}
+
+.motiv_text{
+    padding-top: 15px;
+padding-left: 70px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 139.4%;
+color: #FFFFFF;
+font-family: "MontserratB";
+}
+
+.l{
+  cursor: pointer;  
+}
+
+.motiv_text2{
+    padding-left: 84px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 139.4%; 
+    color: #FFFFFF;
+    font-family: "MontserratB";
+}
+
+.motiv_button{
+width:196px;
+height: 56px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 109.4%;
+text-align: center;
+color: #0086FF;
+border-radius: 6px;
+background: #FFFFFF;
+margin-left: 68px;
+margin-top: 36px;
+font-family: "MontserratB";
+}
+
+
+
+.semi-transparent-button {
+    width:171px;
+    height:56px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 19.33px;
+ background: rgba(243, 242, 245, 0.2);
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  font-family: "MontserratB";
+  margin-left: 80px;
+  margin-top:16px;
+}
+
+.social_networks_header{
+    padding-left: 20px;
+    padding-top:87px;
+    width:262px;
+    font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 138.4%;
+font-family: "MontserratB";
+color: #2D2D2D;
+
+}
+
+.links{
+    margin-left:20px;
+    margin-top:22px;
+}
+
+.footer{
+    background-image: url(./resourses1/footer.png);
+    height:897px;
+}
+
+.footer_logo{
+    margin-left:115px;
+font-style: normal;
+font-weight: 800;
+font-size: 37px;
+line-height: 113.4%;
+font-family: "MontserratEB";
+padding-top:98px;
+color: #FFFFFF;
+}
+
+.footer_text{
+padding-top: 36px;
+padding-left: 69px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 148.4%;
+color: #FFFFFF;
+font-family: "MontserratB";
+}
+
+.footer_text1{
+    padding-left: 83px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 148.4%;
+    color: #FFFFFF;
+    font-family: "MontserratB";
+}
+
+.footer_text2{
+    padding-left: 99px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 148.4%;
+    color: #FFFFFF;
+    font-family: "MontserratB";
+}
+
+.footer_text3{
+    padding-left: 121px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 148.4%;
+    color: #FFFFFF;
+    font-family: "MontserratB";
+}
+
+.networks_text{
+padding-top: 72px;
+padding-left: 67px;
+font-family: "MontserratEB";
+font-style: normal;
+font-weight: 800;
+font-size: 19px;
+line-height: 138.4%;
+color: #FFFFFF;
+}
+
+.networks_text2{
+    padding-left: 126px;
+    font-family: "MontserratEB";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 138.4%;
+    color: #FFFFFF;
+}
+
+.soc-networks{
+    margin-left:79px;
+    margin-top:18px;
+}
+
+.soc-network-img{
+    margin-left:2px;
+}
+
+.soc-network-img2{
+    margin-left:2px;
+}
+
+.k{
+    margin-left:2px;  
+}
+
+.soc-networks2{
+    margin-left:51px;
+    margin-top:4px;
+}
+
+.main{
+    margin-top: 62px;
+    margin-left: 126px;
+}
+
+.main_link{
+    margin-top:-10px;
+    text-decoration: none;
+    font-style: normal;
+font-weight: 800;
+font-size: 16px;
+color: #FFFFFF;
+font-family: "MontserratEB";
+
+}
+
+.about-us-link{
+    text-decoration: none;
+    font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 278.4%;
+color: #FFFFFF;
+font-family: "MontserratEB";
+}
+
+.about-us{
+    margin-top:13px;
+    margin-left:135px;
+}
+
+.languages{
+    background-image: url(./resourses1/languag.png);
+    width:136px;
+    height:56px;
+    margin-left:90px;
+    margin-top:16px;
+    display: flex;
+}
+
+.language_link{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 109.4%;
+    text-decoration: none;
+    font-family: "MontserratB";
+    margin-top:-10px;
+    
+    color: #FFFFFF;
+}
+
+.language_link:hover{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 109.4%;
+    text-decoration: none;
+    font-family: "MontserratB";
+    margin-top:-10px;
+    
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.language_container{
+    margin-top:19px;
+    margin-left:26px;
+}
+
+.language_container2{
+    margin-top:19px;
+    margin-left:20px;
+}
+
+.button_connect{
+    width:204px;
+    height:56px;
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 109.4%;
+border-radius: 6px;
+text-align: center;
+font-family: "MontserratB";
+color: #2F2C39;
+background: #FFFFFF;
+margin-left:56px;
+margin-top:20px;
+}
