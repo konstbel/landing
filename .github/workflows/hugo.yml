@@ -3,10 +3,10 @@ name: Hugo site CI
 on: [push]
 
 jobs:
-  defaults:
-    working-directory: landing
   build:
     runs-on: ubuntu-latest
+    defaults:
+      working-directory: landing
     steps:
     - uses: actions/checkout@v1
     - name: Setup Hugo
