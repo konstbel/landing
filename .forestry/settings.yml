@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: content/ru/posts
@@ -26,7 +26,7 @@ sections:
   label: Присоединится
   create: none
   match: "{ru/join/_index.md,be/join/_index.md}"
-upload_dir: landing/static/uploads
+upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
