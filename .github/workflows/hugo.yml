@@ -2,10 +2,9 @@ name: Hugo site CI
 
 on: [push]
 
-defaults:
-  working-directory: landing
-
 jobs:
+  defaults:
+    working-directory: landing
   build:
     runs-on: ubuntu-latest
     steps:
