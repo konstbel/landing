@@ -2,6 +2,9 @@ name: Hugo site CI
 
 on: [push]
 
+defaults:
+  working-directory: landing
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,10 +17,8 @@ jobs:
         extended: true
     - name: Build
       run: hugo -D --baseUrl https://konstbel.github.io/landing/ --theme sasaafanasienka_hugo
-      working-directory: landing
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
-      working-directory: landing
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
