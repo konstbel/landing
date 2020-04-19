@@ -10,7 +10,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.63.1'
+        hugo-version: '0.65.3'
         extended: true
     - name: Build
       run: hugo -D --baseUrl https://konstbel.github.io/landing/ --theme sasaafanasienka_hugo
