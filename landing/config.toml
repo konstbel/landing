@@ -27,7 +27,7 @@ mainSections = ["posts"]
 [social]
 facebook = "https://www.facebook.com/svezhyvecer/"
 twitter = "https://twitter.com/Svezhyvecer"
-instagram = "https://www.instagram.com/constitution_belarus/"
+instagram = "https://www.instagram.com/svezhyvecer/"
 telegram = "https://t.me/s/svezhyvecer"
 vk = "https://vk.com/svezhyvecer"
 youtube = "https://www.youtube.com/channel/UCPrAHimL4WejRN7udYFN_Sg"
@@ -60,9 +60,14 @@ identifier = "about"
 weight = 2
 
 [[menu.main]]
+URL = "posts"
+identifier = "posts"
+weight = 3
+
+[[menu.main]]
 URL = "join"
 identifier = "join"
-weight = 3
+weight = 4
 
 [params.banner]
 bgImage = ""

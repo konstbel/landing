@@ -75,6 +75,9 @@ other="Як далучыцца"
 [help]
 other = "help"
 
+[posts]
+other = "Навіны"
+
 [learn_more]
 other = "Спазнаць больш"
 
