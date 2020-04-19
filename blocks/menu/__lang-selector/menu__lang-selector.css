@@ -1,0 +1,26 @@
+.menu__lang-selector {
+        margin: 0 1.2em 0 0;
+        opacity: .3;
+        cursor: pointer;
+
+        font-family: Montserrat;
+        /* font-style: normal; */
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 100%;
+        color: white;
+        padding: 0;
+    
+}
+
+.menu__lang-selector_active {
+        opacity: 1;
+}
+
+.menu__lang-selector:last-of-type {
+        margin: 0;
+}
+
+.header .menu__lang-selector {
+        color: #2D2D2D;
+}
