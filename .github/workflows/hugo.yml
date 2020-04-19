@@ -6,7 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     defaults:
-      working-directory: landing
+      run:
+        working-directory: landing
     steps:
     - uses: actions/checkout@v1
     - name: Setup Hugo
