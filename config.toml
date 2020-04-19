@@ -1,5 +1,4 @@
 baseURL = "https://svezhyvecer.by/"
-theme = "alherd"
 defaultContentLanguage = "ru"
 disableKinds = ['taxonomy', 'taxonomyTerm']
 summaryLength = 40
