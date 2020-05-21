@@ -13,7 +13,10 @@ services:
     working_dir: /app
     command: sh -c "yarn watch:dev"
     environment:
-      - DATABASE_URL=${DATABASE_URL}
+      - DATABASE_USER=${POSTGRES_USER}
+      - DATABASE_PASSWORD=${POSTGRES_PASSWORD}
+      - DATABASE_NAME=${POSTGRES_DB}
+      - DATABASE_HOST=${POSTGRES_HOST}
       - SECRET=${SECRET}
       - SENDGRID_API_KEY=${SENDGRID_API_KEY}
     ports:

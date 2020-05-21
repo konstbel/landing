@@ -1,6 +1,10 @@
 import pgPromise from 'pg-promise';
 
 const initOptions = {};
-const cn = process.env.DATABASE_URL;
-export const pgp = pgPromise(initOptions);
-export const db = pgp(cn);
+export const pgp  = pgPromise(initOptions);
+export const db   = pgp({
+    host    : process.env.DATABASE_HOST,
+    user    : process.env.DATABASE_USER,
+    password: process.env.DATABASE_PASSWORD,
+    database: process.env.DATABASE_NAME,
+});
