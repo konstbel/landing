@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2020-05-21T21:00:00Z
-draft = true
 featured_image = "/uploads/b72f172d-5ec8-47f1-baa2-8eb78d24976c.jpeg"
 title = "BY-KOT! Фальсификатор, мы тебя видим"
 
