@@ -1,7 +1,6 @@
 +++
 author = ""
 date = ""
-draft = true
 featured_image = "/uploads/ba9fa9b0-bd7b-4e2e-8026-97faf8834141.jpeg"
 title = "Не про избирательный цирк 🤥, и даже не про COVID-19"
 
