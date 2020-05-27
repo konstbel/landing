@@ -29,4 +29,5 @@ fields:
 pages:
 - content/be/posts/by-kot.md
 - content/ru/posts/...md
+- content/ru/posts/..md
 - content/ru/posts/covid-19.md
