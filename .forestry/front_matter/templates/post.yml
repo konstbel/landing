@@ -27,6 +27,7 @@ fields:
     maxSize: 250
   label: Изображение
 pages:
+- content/be/posts/жывы-ланцуг-самая-беларуская-форма-пратэсту.md
 - content/ru/posts/..md
 - content/ru/posts/covid-19.md
 - content/ru/posts/какой-то-вариант-площади-неизбежно-случится.md
