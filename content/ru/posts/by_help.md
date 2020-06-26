@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2020-06-25T22:00:00Z
-draft = true
 featured_image = ""
 title = "Команде #BY_help"
 
