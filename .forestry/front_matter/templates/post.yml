@@ -27,6 +27,7 @@ fields:
     maxSize: 250
   label: Изображение
 pages:
+- content/be/posts/..md
 - content/be/posts/9.md
 - content/be/posts/symbal.by.md
 - "content/be/posts/белы-легіён-адраджаецца-\U0001F4AA.md"
