@@ -1,7 +1,6 @@
 +++
 author = ""
 date = 2020-07-28T22:00:00Z
-draft = true
 featured_image = ""
 title = "Зацените новый трек от VERA NICHKA — «На волю»"
 
