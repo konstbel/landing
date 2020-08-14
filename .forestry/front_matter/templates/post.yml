@@ -28,6 +28,7 @@ fields:
   label: Изображение
 pages:
 - content/be/posts/..md
+- content/be/posts/1994-2020.md
 - content/be/posts/9.md
 - content/be/posts/symbal.by.md
 - content/be/posts/без-лідараў-і-канкрэтнага-плана.md
