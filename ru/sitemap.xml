@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://konstbel.github.io/landing/posts/</loc>
-    <lastmod>2020-08-14T22:00:00+00:00</lastmod>
+    <lastmod>2020-08-15T22:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://konstbel.github.io/landing/</loc>
-    <lastmod>2020-08-14T22:00:00+00:00</lastmod>
+    <lastmod>2020-08-15T22:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="be"
@@ -30,6 +30,11 @@
                 hreflang="ru"
                 href="https://konstbel.github.io/landing/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://konstbel.github.io/landing/posts/%D1%83-%D0%BD%D0%B0%D1%81-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F-%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F/</loc>
+    <lastmod>2020-08-15T22:00:00+00:00</lastmod>
   </url>
   
   <url>
