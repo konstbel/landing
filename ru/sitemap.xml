@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://konstbel.github.io/landing/posts/lt/</loc>
+    <lastmod>2020-08-22T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://konstbel.github.io/landing/posts/</loc>
     <lastmod>2020-08-22T22:00:00+00:00</lastmod>
     <xhtml:link
@@ -385,10 +390,6 @@
   <url>
     <loc>https://konstbel.github.io/landing/admin/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://konstbel.github.io/landing/posts/lt/</loc>
   </url>
   
   <url>
